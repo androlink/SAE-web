@@ -15,14 +15,12 @@ header{
 }
 
 body>section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 aside{
-    border: solid;
-    width: 20vw;
     padding: 1%;
-    flex-shrink: 0;
 }
 
 .sommaire li>ul>li{
@@ -31,7 +29,6 @@ aside{
 
 main{
     background-color: #555;
-    flex-grow: 1;
     padding: calc(var(--height)/5) 2%;
     min-height: calc(100vh - var(--height));
 }
