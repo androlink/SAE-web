@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+    background-color: green;
+}
+
+aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 30px;
+
+    background-color: orange;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    min-height: 100vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    row-gap: 4rem;
+}
+
+/*----------- PARTIE CARROUSSEL -----------*/
+main>div{
+    background-color: gray;
+    height: 550px;
+    width: 100%;
+
+}
+/*----------- PARTIE ACTUS -----------*/
+main>span{
+    background-color: #F59;
+    padding: 1em;
+}
+main>span>ul{
+    display: flex;
+    column-gap: 2rem;
+    height: 550px;
+    width: 100%;
+}
+main>span>ul>li{
+    width: 20em;
+    border: solid black;
+}
+main>span .img-top{
+    height: 40%;
+    width: 100%;
+}
+main>span .img-top>h1{
+    text-align: center;
+    font-size: 1em;
+    width: 9em;
+    background-color: blue;
+}
+main>span article{
+    height: 60%;
+    width: 100%;
+
+}
+
+#article1>div{
+    background-image: url(../Images/choucroute.jpg);
+    background-size: cover;
+}
+
+#article2>div{
+    background-image: url(../Images/choucroute.jpg);
+    background-size: cover;
+}
+/*----------- PARTIE CONTACT/CARTE -----------*/
+main>section{
+    display: grid;
+    height: 550px;
+    width: 100%;
+    background-color: blue;
+}
