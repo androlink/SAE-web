@@ -1,0 +1,23 @@
+header{
+display:flex;
+flex-direction: column;
+}
+
+
+#header_logo{
+height: 16vh;
+
+
+}
+header nav{
+display: flex;
+align-self: stretch;
+    width: 100%;
+    background-color: orangered;
+    justify-content: space-around;
+}
+header nav a{
+background-color: slategrey;
+margin: 5px;
+padding: 5px;
+}
