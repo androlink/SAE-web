@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none; /*enlever les points dans les listes*/
+    
+}
+
+body{
+    --height: 10vh;
+}
+
+header{
+    height: var(--height);
+    border: solid;
+}
+
+body>section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+aside{
+    padding: 1%;
+}
+
+.sommaire li>ul>li{
+    margin-left: 2em; /*nous permet de faire l'indentation du sommaire*/
+}
+
+main{
+    background-color: #555;
+    padding: calc(var(--height)/5) 2%;
+    min-height: calc(100vh - var(--height));
+}
+
+.question{
+    display: none;
+    height: calc(var(--height)/3);
+    width: 100%;
+    background-color: #999;
+}
+.label-question{
+    position:relative;
+    display: block;
+    background-color: #ccc;
+    user-select: none;
+    
+}
+.label-question::before{
+    content:"";
+    position:absolute;
+    right:100%;
+    width: 0;
+    height: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #007bff;   
+}
+
+.reponse{
+    display: none;
+}
+
+.question:checked~.label-question::before{
+    content:"";
+    position:absolute;
+    right:100%;
+    width: 0;
+    height: 0;
+border-style: solid;
+border-width: 20px 8px 0 8px;
+border-color: red transparent transparent transparent;
+}
+.question:checked~.reponse{
+    display: block;
+}
+main>section:first-child div{
+    margin: 2em 0em;
+}
+main>section:first-child article{
+    margin: 0.5em 0em;
+}
+
+article.reponse{
+    margin-left: 1em;
+}
+main>section:first-child .reponse>div{ /*pour quand il y a des questions dans des questions*/
+    margin-left:2em;
+}
