@@ -2,6 +2,9 @@
     margin:0;
     padding: 0;
     list-style: none;
+    outline: none;
+    text-decoration: none;
+    color: #000;
 }
 
 body{
@@ -57,18 +60,18 @@ main>span .img-top::before{
     font-size: 1em;
     bottom: 10px;
     left: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding:5px 1rem;
 
 }
 main>span .event .img-top::before{
     content: "Évenement/Annonce";
-    background-color: blue;
+    background-color: rgba(85, 107, 246, 0.9);
 }
 
 main>span .formation .img-top::before{
     content:"Formation";
-    background-color: brown;
+    background-color: rgba(178, 55, 65, 0.9);
 }
 
 main>span article{
@@ -80,44 +83,36 @@ main>span article{
     row-gap: 0.25em;
     margin: 1em;
 }
+main>span article::after{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    content: '+';
+    font-size: 5em;
+    font-weight: 700;
+}
 
-#article1>div{
+#article1>a>div{
     background-image: url(../Images/Articles/megaphone.gif);
     background-size: cover;
 }
 
-#article2>div{
+#article2>a>div{
     background-image: url(../Images/Articles/v_20211112-affiche-metier-version-finale-carre_1636536798853.jpg);
     background-size: cover;
 }
 
-#article3>div{
+#article3>a>div{
     background-image: url(../Images/Articles/v_affiche-ce-2022_1636358611844.png);
     background-size: cover;
 }
 
-#article4>div{
+#article4>a>div{
     background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
     background-size: cover;
 }
 
-button.plus::before{
-    position: absolute;
-    text-align: center;
-    font-size: 1em;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 5px;
-    padding:5px 1rem;
-
-    content: '+';
-    font-size:5em;
-    visibility: visible;
-    
-}
-button.plus{
-    visibility: hidden;
-}
 /*----------- PARTIE CONTACT/CARTE -----------*/
 main>section{
     display: grid;
@@ -127,7 +122,6 @@ main>section{
     grid-template-columns: 3fr 10fr 3fr;
     grid-template-rows: 2fr 10fr 2fr;
     gap: 2em;
-
 }
 
 main>section>div{
@@ -147,4 +141,3 @@ main>section>div>iframe{
     height: 100%;
     width: 100%;
 }
-
