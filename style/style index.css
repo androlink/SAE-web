@@ -119,3 +119,8 @@ main>section>div:last-child{
     grid-row:1/4
 }
 
+main>section>div>iframe{
+    height: 100%;
+    width: 100%;
+}
+
