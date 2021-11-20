@@ -82,17 +82,22 @@ main>span article{
 }
 
 #article1>div{
-    background-image: url(../Images/choucroute.jpg);
+    background-image: url(../Images/Articles/megaphone.gif);
     background-size: cover;
 }
 
 #article2>div{
-    background-image: url(../Images/choucroute.jpg);
+    background-image: url(../Images/Articles/v_20211112-affiche-metier-version-finale-carre_1636536798853.jpg);
     background-size: cover;
 }
 
 #article3>div{
-    background-image: url(../Images/chaise.png);
+    background-image: url(../Images/Articles/v_affiche-ce-2022_1636358611844.png);
+    background-size: cover;
+}
+
+#article4>div{
+    background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
     background-size: cover;
 }
 
