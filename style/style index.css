@@ -30,13 +30,7 @@ main{
     row-gap: 4rem;
 }
 
-/*----------- PARTIE CARROUSSEL -----------*/
-main>div{
-    background-color: gray;
-    height: 550px;
-    width: 100%;
 
-}
 /*----------- PARTIE ACTUS -----------*/
 main>span{
     background-color: #F59;
@@ -55,17 +49,35 @@ main>span>ul>li{
 main>span .img-top{
     height: 40%;
     width: 100%;
+    position: relative;
 }
-main>span .img-top>h1{
+main>span .img-top::before{
+    position: absolute;
     text-align: center;
     font-size: 1em;
-    width: 9em;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 5px;
+    padding:5px 1rem;
+
+}
+main>span .choucroute .img-top::before{
+    content: "choucroute";
     background-color: blue;
 }
-main>span article{
-    height: 60%;
-    width: 100%;
 
+main>span .chaise .img-top::before{
+    content:"chaise";
+    background-color: brown;
+}
+
+main>span article{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: calc(100%-2em);                  /* c'est dégeulasse*/
+    row-gap: 0.25em;
+    margin: 1em;
 }
 
 #article1>div{
@@ -77,6 +89,11 @@ main>span article{
     background-image: url(../Images/choucroute.jpg);
     background-size: cover;
 }
+
+#article3>div{
+    background-image: url(../Images/chaise.png);
+    background-size: cover;
+}
 /*----------- PARTIE CONTACT/CARTE -----------*/
 main>section{
     display: grid;
@@ -84,3 +101,4 @@ main>section{
     width: 100%;
     background-color: blue;
 }
+
