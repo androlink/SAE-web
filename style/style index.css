@@ -100,5 +100,22 @@ main>section{
     height: 550px;
     width: 100%;
     background-color: blue;
+    grid-template-columns: 3fr 10fr 3fr;
+    grid-template-rows: 2fr 10fr 2fr;
+    gap: 2em;
+
+}
+
+main>section>div{
+    background-color: grey;
+}
+main>section>div:first-child{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+main>section>div:last-child{
+    grid-column: 3/4;
+    grid-row:1/4
 }
 
