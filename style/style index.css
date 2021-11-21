@@ -25,19 +25,89 @@ aside{
     left: 0;
     height: 100vh;
     width: 30px;
-
     background-color: var(--bg_aside)
 }
 main{
     display: flex;
     flex-direction: column;
     width: 75vw;
+    --hauteur_zone: 37.5vw; /* 2 fois moins que la largeur*/
     min-height: 100vh;
     margin-top: 2rem;
     margin-bottom: 2rem;
     row-gap: 4rem;
 }
 
+img, .img{ 
+    background-size: cover;  
+}
+
+/*----------- PARTIE CAROUSSEL -----------*/
+.content {
+    overflow: hidden;
+    height: var(--hauteur_zone);
+    width: 100%;
+    margin: auto;
+}
+
+.gallery-item {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30%;
+    /* display: inline-block; */
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container {
+    overflow: hidden;
+}
+
+.slide-holder {
+    width: 400%;
+    position: relative;
+    animation: scroller 10s infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.slide-holder img {
+    width: 25%;
+    display: inline-block;
+    max-width: 25%;
+    margin-right: -4px;
+}
+
+/* need a step for each slide */
+
+@keyframes scroller {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-25%);
+    }
+    40% {
+        transform: translateX(-25%);
+    }
+    60% {
+        transform: translateX(-50%);
+    }
+    70% {
+        transform: translateX(-50%);
+    }
+    90% {
+        transform: translateX(-75%);
+    }
+    100% {
+        transform: translateX(-75%);
+    }
+}
 
 /*----------- PARTIE ACTUS -----------*/
 main>span{
@@ -47,7 +117,7 @@ main>span{
 main>span>ul{
     display: flex;
     column-gap: 2rem;
-    height: 550px;
+    height: var(--hauteur_zone);
     width: 100%;
 }
 main>span>ul>li{
@@ -100,28 +170,25 @@ main>span article::after{
 
 #article1>a>div{
     background-image: url(../Images/Articles/megaphone.gif);
-    background-size: cover;
 }
+
 
 #article2>a>div{
     background-image: url(../Images/Articles/v_20211112-affiche-metier-version-finale-carre_1636536798853.jpg);
-    background-size: cover;
 }
 
 #article3>a>div{
     background-image: url(../Images/Articles/v_affiche-ce-2022_1636358611844.png);
-    background-size: cover;
 }
 
 #article4>a>div{
     background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
-    background-size: cover;
 }
 
 /*----------- PARTIE CONTACT/CARTE -----------*/
 main>section{
     display: grid;
-    height: 550px;
+    height: var(--hauteur_zone);
     width: 100%;
     background-color: var(--bg_mapContact);
     grid-template-columns: 3fr 10fr 3fr;
