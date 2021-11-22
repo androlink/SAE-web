@@ -11,11 +11,9 @@ body{
     display: flex;
     justify-content: center;
 
-    background-color: green;
-
     --bg_aside: orange;
     --bg_news:  #F59;
-    --bg_mapContact: blue;
+    --bg_mapContact: #DDD;
     --bg_mapContact_cases: grey;
 }
 
@@ -189,7 +187,8 @@ main>span article::after{
 main>section{
     display: grid;
     height: var(--hauteur_zone);
-    width: 100%;
+    width: 96%;
+    padding: 2%;
     background-color: var(--bg_mapContact);
     grid-template-columns: 3fr 10fr 3fr;
     grid-template-rows: 2fr 10fr 2fr;
@@ -204,9 +203,17 @@ main>section>div:first-child{
     grid-row: 1/4;
 }
 
-main>section>div:last-child{
+.logo{
     grid-column: 3/4;
-    grid-row:1/4
+    grid-row:1/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+}
+.logo>img{
+    height: auto;
+    width: 80%
 }
 
 main>section>div>iframe{
