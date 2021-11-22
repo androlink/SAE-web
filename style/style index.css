@@ -2,13 +2,19 @@
     margin:0;
     padding: 0;
     list-style: none;
+    outline: none;
+    text-decoration: none;
+    color: #000;
 }
 
 body{
     display: flex;
     justify-content: center;
 
-    background-color: green;
+    --bg_aside: orange;
+    --bg_news:  #F59;
+    --bg_mapContact: #DDD;
+    --bg_mapContact_cases: grey;
 }
 
 aside{
@@ -17,35 +23,99 @@ aside{
     left: 0;
     height: 100vh;
     width: 30px;
-
-    background-color: orange;
+    background-color: var(--bg_aside)
 }
 main{
     display: flex;
     flex-direction: column;
     width: 75vw;
+    --hauteur_zone: 37.5vw; /* 2 fois moins que la largeur*/
     min-height: 100vh;
     margin-top: 2rem;
     margin-bottom: 2rem;
     row-gap: 4rem;
 }
 
-/*----------- PARTIE CARROUSSEL -----------*/
-main>div{
-    background-color: gray;
-    height: 550px;
-    width: 100%;
-
+img, .img{ 
+    background-size: cover;  
 }
+
+/*----------- PARTIE CAROUSSEL -----------*/
+.content {
+    overflow: hidden;
+    height: var(--hauteur_zone);
+    width: 100%;
+    margin: auto;
+}
+
+.gallery-item {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30%;
+    /* display: inline-block; */
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container {
+    overflow: hidden;
+}
+
+.slide-holder {
+    width: 400%;
+    position: relative;
+    animation: scroller 10s infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.slide-holder img {
+    width: 25%;
+    display: inline-block;
+    max-width: 25%;
+    margin-right: -4px;
+}
+
+/* need a step for each slide */
+
+@keyframes scroller {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-25%);
+    }
+    40% {
+        transform: translateX(-25%);
+    }
+    60% {
+        transform: translateX(-50%);
+    }
+    70% {
+        transform: translateX(-50%);
+    }
+    90% {
+        transform: translateX(-75%);
+    }
+    100% {
+        transform: translateX(-75%);
+    }
+}
+
 /*----------- PARTIE ACTUS -----------*/
 main>span{
-    background-color: #F59;
+    background-color: var(--bg_news);
     padding: 1em;
 }
 main>span>ul{
     display: flex;
     column-gap: 2rem;
-    height: 550px;
+    height: var(--hauteur_zone);
     width: 100%;
 }
 main>span>ul>li{
@@ -55,32 +125,98 @@ main>span>ul>li{
 main>span .img-top{
     height: 40%;
     width: 100%;
+    position: relative;
 }
-main>span .img-top>h1{
+main>span .img-top::before{
+    position: absolute;
     text-align: center;
     font-size: 1em;
-    width: 9em;
-    background-color: blue;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 10px;
+    padding:5px 1rem;
+
 }
+main>span .event .img-top::before{
+    content: "Évenement/Annonce";
+    background-color: rgba(85, 107, 246, 0.9);
+}
+
+main>span .formation .img-top::before{
+    content:"Formation";
+    background-color: rgba(178, 55, 65, 0.9);
+}
+
 main>span article{
+    display: flex;
+    position: relative;
+    flex-direction: column;
     height: 60%;
-    width: 100%;
-
+    width: calc(100%-2em);                  /* c'est dégeulasse*/
+    row-gap: 0.25em;
+    margin: 1em;
+}
+main>span article::after{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    content: '+';
+    font-size: 5em;
+    font-weight: 700;
 }
 
-#article1>div{
-    background-image: url(../Images/choucroute.jpg);
-    background-size: cover;
+#article1>a>div{
+    background-image: url(../Images/Articles/megaphone.gif);
 }
 
-#article2>div{
-    background-image: url(../Images/choucroute.jpg);
-    background-size: cover;
+
+#article2>a>div{
+    background-image: url(../Images/Articles/v_20211112-affiche-metier-version-finale-carre_1636536798853.jpg);
 }
+
+#article3>a>div{
+    background-image: url(../Images/Articles/v_affiche-ce-2022_1636358611844.png);
+}
+
+#article4>a>div{
+    background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
+}
+
 /*----------- PARTIE CONTACT/CARTE -----------*/
 main>section{
     display: grid;
-    height: 550px;
+    height: var(--hauteur_zone);
+    width: 96%;
+    padding: 2%;
+    background-color: var(--bg_mapContact);
+    grid-template-columns: 3fr 10fr 3fr;
+    grid-template-rows: 2fr 10fr 2fr;
+    gap: 2em;
+}
+
+main>section>div{
+    background-color: var(--bg_mapContact_cases);
+}
+main>section>div:first-child{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.logo{
+    grid-column: 3/4;
+    grid-row:1/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+}
+.logo>img{
+    height: auto;
+    width: 80%
+}
+
+main>section>div>iframe{
+    height: 100%;
     width: 100%;
-    background-color: blue;
 }
