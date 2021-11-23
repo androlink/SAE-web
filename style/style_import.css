@@ -6,18 +6,21 @@ flex-direction: column;
 
 #header_logo{
 height: 16vh;
-
-
+align-self: flex-start;
+justify-content: stretch;
 }
 header nav{
 display: flex;
-align-self: stretch;
     width: 100%;
     background-color: orangered;
-    justify-content: space-around;
+    justify-content: stretch;
 }
 header nav a{
-background-color: slategrey;
+background-color: rgb(58,65,71);
+display: flex;
+color: snow;
+flex: 1 1 auto;
 margin: 5px;
 padding: 5px;
+justify-content: center;
 }
