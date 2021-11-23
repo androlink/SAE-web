@@ -1,26 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 header{
-display:flex;
-flex-direction: column;
+    display:flex;
+    flex-direction: column;
 }
 
 
 #header_logo{
-height: 16vh;
-align-self: flex-start;
-justify-content: stretch;
+    height: 16vh;
+    align-self: flex-start;
+    justify-content: stretch;
 }
 header nav{
-display: flex;
+    display: flex;
     width: 100%;
     background-color: orangered;
     justify-content: stretch;
 }
 header nav a{
-background-color: rgb(58,65,71);
-display: flex;
-color: snow;
-flex: 1 1 auto;
-margin: 5px;
-padding: 5px;
-justify-content: center;
+    background-color: rgb(58,65,71);
+    display: flex;
+    color: snow;
+    flex: 1 1 auto;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+footer{
+    position: sticky;
+    width: 100vw;
+    height: 30px;
+    background-color: darkslategrey;
+    
+    display: flex;
+    
+}
+
+footer p{
+    justify-self: stretch;
+    text-align: center;
+    color: snow;
+    display: inline-block;
+    flex: 1 1 auto;
+
+
+}
+footer p a{
+    color: snow;
 }
