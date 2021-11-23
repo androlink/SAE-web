@@ -1,33 +1,46 @@
 *{
+    margin:0;
     padding: 0;
-    margin: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    color: #000;
 }
+
 header{
     display:flex;
     flex-direction: column;
+    height:var(--height_header);
 }
 
 
-#header_logo{
-    height: 16vh;
+header>img{
     align-self: flex-start;
     justify-content: stretch;
+    height: 13vh;
 }
-header nav{
+
+header>nav{
     display: flex;
-    width: 100%;
-    background-color: orangered;
-    justify-content: stretch;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(58,65,71);
+
 }
 header nav a{
-    background-color: rgb(58,65,71);
     display: flex;
-    color: snow;
-    flex: 1 1 auto;
-    margin: 5px;
-    padding: 5px;
     justify-content: center;
+    width: 33%;
+    border: solid orangered;
+
 }
+
+
+
+
+
+
+/*_____________________________________________________________________________________________*/
 
 footer{
     position: sticky;

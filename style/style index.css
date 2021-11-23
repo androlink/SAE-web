@@ -1,33 +1,26 @@
-*{
-    margin:0;
-    padding: 0;
-    list-style: none;
-    outline: none;
-    text-decoration: none;
-    color: #000;
-}
-
 body{
-    display: flex;
-    justify-content: center;
-
+    --height_header: 16vh;
     --bg_aside: orange;
     --bg_news:  #F59;
     --bg_mapContact: #DDD;
     --bg_mapContact_cases: grey;
 }
+body>div{
+    display: flex;
+}
 
 aside{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height:100vh;
     width: 30px;
     background-color: var(--bg_aside)
 }
 main{
     display: flex;
     flex-direction: column;
+    margin: auto;
     width: 75vw;
     --hauteur_zone: 37.5vw; /* 2 fois moins que la largeur*/
     min-height: 100vh;
