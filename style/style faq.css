@@ -76,16 +76,13 @@ border-color: red transparent transparent transparent;
 .question:checked~.reponse{
     display: block;
 }
-main>section:first-child div{
+details{
     margin: 2em 0em;
 }
-main>section:first-child article{
+details>*:nth-child(2){
     margin: 0.5em 0em;
-}
-
-article.reponse{
     margin-left: 1em;
 }
-main>section:first-child .reponse>div{ /*pour quand il y a des questions dans des questions*/
+details>section>details{ /*pour quand il y a des questions dans des questions*/
     margin-left:2em;
 }
