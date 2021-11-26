@@ -146,8 +146,22 @@
                     </details>
                 </section>
             </div>
-            <div> <!-- Autre question / formulaire -->
-            </div>
+            <form> <!-- Autre question / formulaire -->
+                <section>
+                    <label for="mail">Mail :</label>
+                    <input id="mail">
+                    <select name="formation">
+                        <option value="" disabled selected hidden>niveau de formation</option>
+                        <option value="parents">parents</option>
+                        <option value="bac+">post bac</option>
+                        <option value="term">terminal</option>
+                        <option value="1ere">premiere</option>
+                        <option value="1ere-">avant-premiere</option>
+                    </select>
+                </section>
+                <textarea placeholder="entrez votre question"></textarea>
+                <button>envoyer</button>
+            </form>
         </main>
     </section>
 </body>
