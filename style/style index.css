@@ -205,8 +205,9 @@ main>section>div:first-child{
     row-gap: 1em;
 }
 .logo>img{
+    max-height: 14%;
     height: auto;
-    width: 80%
+    max-width: 80%;
 }
 
 main>section>div>iframe{
