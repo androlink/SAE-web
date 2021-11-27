@@ -6,18 +6,18 @@
     text-decoration: none;
     color: #000;
 }
-
+body{
+    --height_header: 16vh;
+}
 header{
-    display:flex;
-    flex-direction: column;
-    height:var(--height_header);
+    height:var(--height);
 }
 
 
-header>img{
-    align-self: flex-start;
-    justify-content: stretch;
+header>div{
+    display: flex;
     height: 13vh;
+    justify-content: center;
 }
 
 header>nav{
