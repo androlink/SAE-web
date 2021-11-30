@@ -31,6 +31,15 @@ summary{
     user-select : none;
     background-color: #ccc;
     padding: 0em 0.5em;
+    
+}
+summary::after{
+    
+    content: ' >';
+}
+summary::before{
+    
+    content: '< ';
 }
 details:nth-child(n+2),section:nth-child(n+2)>details{
     margin: 2em 0em;
