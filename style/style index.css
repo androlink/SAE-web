@@ -1,3 +1,4 @@
+
 body{
     --bg_aside: orange;
     --bg_news:  #F59;
@@ -26,6 +27,9 @@ main{
     margin-top: 2rem;
     margin-bottom: 2rem;
     row-gap: 4rem;
+}
+aside:hover{
+   width: 14vw;
 }
 
 img, .img{ 
@@ -107,22 +111,23 @@ main>span{
 main>span>ul{
     display: flex;
     column-gap: 2rem;
-    height: var(--hauteur_zone);
+    min-height: var(--hauteur_zone);
     width: 100%;
 }
 main>span>ul>li{
+    position: relative;
     width: 20em;
     border: solid black;
 }
 main>span .img-top{
-    height: 40%;
+    height: 250px;
     width: 100%;
     position: relative;
 }
 main>span .img-top::before{
     position: absolute;
     text-align: center;
-    font-size: 1em;
+    font-size: clamp(8px, 1.5vw, 18px);
     bottom: 10px;
     left: 10px;
     border-radius: 10px;
@@ -139,39 +144,41 @@ main>span .formation .img-top::before{
     background-color: rgba(178, 55, 65, 0.9);
 }
 
-main>span article{
+main>span span{
     display: flex;
-    position: relative;
+    flex-direction: column;
+}
+main>span span>article{
+    display: flex;
     flex-direction: column;
     height: 60%;
     width: calc(100%-2em);                  /* c'est dégeulasse*/
     row-gap: 0.25em;
     margin: 1em;
+    margin-bottom: 5em;
 }
-main>span article::after{
+main>span span>span{
     position: absolute;
-    text-align: center;
     bottom: 10px;
     right: 10px;
-    content: '+';
     font-size: 5em;
     font-weight: 700;
 }
 
-#article1>a>div{
+#article1>a>span>div{
     background-image: url(../Images/Articles/megaphone.gif);
 }
 
 
-#article2>a>div{
+#article2>a>span>div{
     background-image: url(../Images/Articles/v_20211112-affiche-metier-version-finale-carre_1636536798853.jpg);
 }
 
-#article3>a>div{
+#article3>a>span>div{
     background-image: url(../Images/Articles/v_affiche-ce-2022_1636358611844.png);
 }
 
-#article4>a>div{
+#article4>a>span>div{
     background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
 }
 
@@ -202,6 +209,7 @@ main>section>div:first-child{
     flex-direction: column;
     align-items: center;
     row-gap: 1em;
+
 }
 .logo>img{
     max-height: 14%;
