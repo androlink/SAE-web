@@ -7,16 +7,9 @@
     <link rel="stylesheet" href="style/style_import.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="Images/LOGOS/logo_iut.png" alt="iut lyon1">
-        </div>
-        <nav>
-            <a href="index.html">Acceuil</a>
-            <a href="PRESENTATION.html">Presentation</a>
-            <a href="FAQ.html">FAQ</a>
-        </nav>
-    </header>
+    <?php
+        include("part/header.html");
+    ?>
     <section>
         <aside> <!--marge-->
             <div class=sommaire>
@@ -168,5 +161,8 @@
             </form>
         </main>
     </section>
+    <?php
+        include("part/footer.html");
+    ?>
 </body>
 </html>
