@@ -1,7 +1,9 @@
 header{
     height: var(--height);
 }
-
+body{
+    background-color: blue;
+}
 body>section{
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -11,9 +13,11 @@ aside{
     position: sticky;
     top: 0px;
     left: 0px;
-    height:100vh;
+    height: fit-content;
     padding: 1%;
+    background-color: cornsilk;
 }
+
 
 .sommaire li>ul>li{
     margin-left: 2em; /*nous permet de faire l'indentation du sommaire*/
@@ -30,16 +34,17 @@ main{
 summary{
     user-select : none;
     background-color: #ccc;
+    color: black;
     padding: 0em 0.5em;
-    
+    border-radius: 5px;
 }
-summary::after{
+details summary::before{
     
-    content: ' >';
+    content: ' ►';
 }
-summary::before{
+details summary::after{
     
-    content: '< ';
+    content: ' ◄';
 }
 details:nth-child(n+2),section:nth-child(n+2)>details{
     margin: 2em 0em;
@@ -50,6 +55,13 @@ details>*:nth-child(2){
 }
 details>section>details{ /*pour quand il y a des questions dans des questions*/
     margin-left:2em;
+}
+
+details[open]>summary:after {
+  content: "▼ ";
+}
+details[open]>summary:before {
+  content: " ▼";
 }
 
 /*-----------FORMULAIRE--------------------------*/
