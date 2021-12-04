@@ -58,7 +58,10 @@ details[open]>summary:after {
 details[open]>summary:before {
   content: " ▼";
 }
+details[open]>summary{
+background-color: gray;
 
+}
 /*-----------FORMULAIRE--------------------------*/
 form{
     display: grid;
