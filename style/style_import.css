@@ -6,13 +6,21 @@
     text-decoration: none;
     color: #000;
 }
-body{
+
+html{
+    --bg-header: #e77c9c;
+    --bg-footer: #314f4f;
+
+    --bg-main: #FFF;
+    --bg-aside: #f8d595;
+    --bg-button: #ccc;
     --height_header: 16vh;
 }
+
 header{
+    background-color: var(--bg-header);
     height:var(--height);
 }
-
 
 header>div{
     display: flex;
@@ -24,7 +32,7 @@ header>nav{
     display: flex;
     justify-content: space-between;
     height: 100%;
-    background-color: rgb(58,65,71);
+    background-color: var(--bg-button);
 
 }
 header nav a{
@@ -43,16 +51,15 @@ header nav a{
 /*_____________________________________________________________________________________________*/
 
 footer{
-    position: sticky;
-    width: 100vw;
+    position: sticky;   
     height: 30px;
-    background-color: darkslategrey;
+    background-color: var(--bg-footer);
     
     display: flex;
     
 }
 
-footer p{
+footer p, footer a{
     justify-self: stretch;
     text-align: center;
     color: snow;
@@ -60,7 +67,4 @@ footer p{
     flex: 1 1 auto;
 
 
-}
-footer p a{
-    color: snow;
 }

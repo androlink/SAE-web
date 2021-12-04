@@ -1,6 +1,5 @@
 
 body{
-    --bg_aside: orange;
     --bg_news:  #F59;
     --bg_mapContact: #DDD;
     --bg_mapContact_cases: grey;
@@ -15,7 +14,7 @@ aside{
     left: 0px;
     height:100vh;
     width: 30px;
-    background-color: var(--bg_aside)
+    background-color: var(--bg-aside)
 }
 main{
     display: flex;
