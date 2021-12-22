@@ -103,13 +103,15 @@ img, .img{
 }
 
 /*----------- PARTIE ACTUS -----------*/
+
 main>span{
     background-color: var(--bg_news);
     padding: 1em;
+    
 }
 main>span>ul{
     display: flex;
-    column-gap: 2rem;
+    gap: 2rem;
     min-height: var(--hauteur_zone);
     width: 100%;
 }
@@ -219,4 +221,29 @@ main>section>div:first-child{
 main>section>div>iframe{
     height: 100%;
     width: 100%;
+}
+
+
+
+
+@media screen and (max-width:1300px) {
+    main>span>ul{
+        flex-direction: column;
+    }
+    main>span>ul>li{
+        margin:auto;
+        width: 75%;
+    }
+    main>section>div:first-child>h1{
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    #branly{
+        display: none;
+    }
+}
+@media screen and (max-width:575px) {
+    main>section{
+        display: none;
+    }
 }

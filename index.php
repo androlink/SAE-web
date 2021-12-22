@@ -110,7 +110,7 @@
                     <img src="Images/LOGOS/Dpt_ain-2018.png" alt="" />
                     <img src="Images/LOGOS/CCI-Lyon-Metropole-Saint-Etienne-Roanne.png" alt="" />
                     <img src="Images/LOGOS/IUT_ain_rhone_loire.jpg" alt="" />
-                    <img src="Images/LOGOS/Lyceebranly.jpg" alt="" />
+                    <img id="branly" src="Images/LOGOS/Lyceebranly.jpg" alt="" />
                     <img src="Images/LOGOS/UDL_COBRANDING_ENS.png" alt="" />
                 </div>
             </section>
