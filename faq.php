@@ -3,6 +3,7 @@
 <head>
     <title>acceuil</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style faq.css">
     <link rel="stylesheet" href="style/style_import.css">
 </head>
@@ -17,7 +18,6 @@
                     <li>
                         <h1><a href="#TRAVAIL">Travail</a></h1>    <!--titre catégorie-->
                         <ul>
-
                             <li>    <!--question-->
                                 <p>test</p>
                             </li>
@@ -143,22 +143,24 @@
                     </details>
                 </section>
             </div>
-            <form> <!-- Autre question / formulaire -->
-                <section id="AUTRE">
-                    <label for="mail">Mail :</label>
-                    <input id="mail">
-                </section>
-                <select name="formation">
-                    <option value="" disabled selected hidden>niveau de formation</option>
-                    <option value="parents">parents</option>
-                    <option value="bac+">post bac</option>
-                    <option value="term">terminal</option>
-                    <option value="1ere">premiere</option>
-                    <option value="1ere-">avant-premiere</option>
-                </select>
-                <textarea placeholder="entrez votre question"></textarea>
-                <button>envoyer</button>
-            </form>
+            <section>
+                <form> <!-- Autre question / formulaire -->
+                    <section id="AUTRE">
+                        <label for="mail">Mail :</label>
+                        <input id="mail">
+                    </section>
+                    <select name="formation">
+                        <option value="" disabled selected hidden>niveau de formation</option>
+                        <option value="parents">parents</option>
+                        <option value="bac+">post bac</option>
+                        <option value="term">terminal</option>
+                        <option value="1ere">premiere</option>
+                        <option value="1ere-">avant-premiere</option>
+                    </select>
+                    <textarea placeholder="entrez votre question"></textarea>
+                    <button>envoyer</button>
+                </form>
+            </section>
         </main>
     </section>
     <?php

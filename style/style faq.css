@@ -10,6 +10,7 @@ aside{
     height: fit-content;
     padding: 1%;
     background-color: var(--bg-aside);
+    min-height: 100vh;
     height: 100%;
 }
 
@@ -63,13 +64,19 @@ background-color: gray;
 
 }
 /*-----------FORMULAIRE--------------------------*/
-form{
+main>section{
+    position:relative;
+}
+main>section>form{
+    position: absolute;
+    right: 0px;
+
     display: grid;
     grid-template-rows: 2em 6em 2em ;
     row-gap: 0.5em;
     column-gap: 5em;
 
-    margin-left: 50%;
+    width: 50%;
 }
 
 label,#mail,form>section{
@@ -92,4 +99,16 @@ button{
 }
 button,select{
     margin-right: 2em;
+}
+
+@media screen and (max-width:825px) {
+    summary,details>p{
+        font-size: 0.8em;
+    }
+    form{
+        column-gap: 1em;
+    }
+    button,select{
+        margin-right: 0px;
+    }
 }
