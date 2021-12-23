@@ -1,0 +1,27 @@
+body>section{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+aside{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: var(--bg-aside);
+    padding: 100px 1%;
+    min-height: 100vh;
+}
+
+#leboss{         /*div qui sert de photo*/
+    justify-content: center;
+    align-items: center;
+    
+    width: 9vw;
+    height: 9vw;
+    margin: auto;
+    border-radius: 100%;     /*permet de rogner les coins de la photo mise en background*/
+    
+    border: solid black 1px;
+    background-image: url('../Images/directeur_iut.jfif'); /*J'ai fait un background image pour si je veux plus tard mettre qqch par dessus*/
+    background-size: cover; /*fait en sorte que le background fait la taille du div et ne dépasse pas, l'image ce compresse donc pour ne pas dépasser*/
+}
