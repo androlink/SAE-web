@@ -3,7 +3,7 @@
 <head>
     <title>acceuil</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/style faq.css">
+    <link rel="stylesheet" href="style/style_faq.css">
     <link rel="stylesheet" href="style/style_import.css">
 </head>
 <body>
