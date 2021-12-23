@@ -1,6 +1,7 @@
 body>section{
     display: grid;
     grid-template-columns: 1fr 5fr;
+    background-color: #f0f0f0;
 }
 
 aside{
@@ -22,6 +23,36 @@ aside{
     border-radius: 100%;     /*permet de rogner les coins de la photo mise en background*/
     
     border: solid black 1px;
-    background-image: url('../Images/directeur_iut.jfif'); /*J'ai fait un background image pour si je veux plus tard mettre qqch par dessus*/
+    background-image: url('../Images/Presentation/directeur_iut.jfif'); /*J'ai fait un background image pour si je veux plus tard mettre qqch par dessus*/
     background-size: cover; /*fait en sorte que le background fait la taille du div et ne dépasse pas, l'image ce compresse donc pour ne pas dépasser*/
+}
+
+
+
+main{
+    width: 80%;
+    margin: 5rem auto;
+}
+main>article>div{
+    background-image: url('../Images/Presentation/parcours.png');
+    height: 310px;
+    width: 550px;
+    background-size: cover;
+    margin: 3em 1em;
+}
+
+article li{
+    margin-left: 2em;
+    list-style: inside;
+}
+
+article>h2,article>h3,article>h4{
+    color:red;
+    margin:1.5em 0 0.25em 0;
+}
+
+@media screen and (max-width:700px) {               /*ça marche pas*/
+    aside{
+        display: none;
+    }
 }

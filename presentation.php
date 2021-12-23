@@ -3,8 +3,8 @@
 <head>
     <title>acceuil</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/style_presentation.css">
     <link rel="stylesheet" href="style/style_import.css">
+    <link rel="stylesheet" href="style/style_presentation.css">
 </head>
 <body>
     <?php
@@ -18,13 +18,13 @@
             <article>
                 <h1>Bienvenue sur le site de l'IUT Informatique Lyon 1</h1>
                 <p>Le département Informatique de l'IUT Lyon 1 site de Villeurbanne Doua s'adresse aux étudiants souhaitant s'investir dans un domaine d'innovation dans lequel la créativité est la bienvenue. De nos jours, l'Informatique est partout et nous entoure dans notre quotidien. "Le futur appartient à ceux qui s'y préparent" pourrait être le proverbe qui a motivé les initiateurs de cette aventure technique, scientifique et humaine qui est devenue l'informatique. A vous d'y participer !</p>
-                <p>Notre vocation : former des technicien(ne)s et technicien(ne)s supérieur(e)s capables de gérer des projets de développement informatique et de garantir le bon fonctionnement des réseaux ; capable d'assurer l'évolution des serveurs applicatifs, d'administrer des systèmes d'informations et concevoir, développer, exploiter des applicatifs décisionnels... </p>
+                <p>Notre vocation : former des techniciens et techniciens supérieurs capables de gérer des projets de développement informatique et de garantir le bon fonctionnement des réseaux ; capable d'assurer l'évolution des serveurs applicatifs, d'administrer des systèmes d'informations et concevoir, développer, exploiter des applicatifs décisionnels... </p>
                 <h2>Qu'est ce qu'un BUT informatique ?</h2>
                 <p>Un BUT se fait en 6 semestres, ce qui est l'équivalent de 3ans.</p>
                 <p>Former des professionnels de l’informatique, compétents au plan technologique, capables de réaliser et maintenir des logiciels, de gérer des projets de développement informatique, de garantir le bon fonctionnement des réseaux et également d’échanger avec les utilisateurs. Dotés de compétences assez larges, les futurs diplômés administrent des réseaux, des bases de données, gèrent les parcs informatiques, développent des utilitaires métiers, assurent assistance et formation aux utilisateurs de l’informatique. Ils sont capables de s’adapter à l’évolution rapide des techniques dans un domaine en constante évolution.</p>
                 <p>Il existe 3 parcours cependant le programme de la première année est commun à tous les parcours, le choix du parcours ce fait à la fin de la première année. Quel que soit le parcours la troisième année se fait en alternance.</p>
                 <p>
-                    <h4>Les trois parcours existants sont :<h4>
+                    <h4>Les trois parcours existants sont :</h4>
                     <ul>
                         <li>Réalisation d’applications : conception, développement, validation</li>
                         <li>Déploiement d’applications communicantes et sécurisées</li>
