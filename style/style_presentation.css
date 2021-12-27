@@ -1,4 +1,4 @@
-body>section{
+body>div{
     display: grid;
     grid-template-columns: 1fr 5fr;
     background-color: #f0f0f0;
@@ -8,9 +8,9 @@ aside{
     position: sticky;
     top: 0px;
     left: 0px;
-    background-color: var(--bg-aside);
+    height: 100vh;
     padding: 100px 1%;
-    min-height: 100vh;
+    background-color: var(--bg-aside);
 }
 
 #leboss{         /*div qui sert de photo*/

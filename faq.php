@@ -10,7 +10,7 @@
     <?php
         include("part/header.html");
     ?>
-    <section>
+    <div>
         <aside> <!--marge-->
             <div class=sommaire>
                 <ul>
@@ -198,7 +198,7 @@
                 <button>envoyer</button>
             </form>
         </main>
-    </section>
+    </div>
     <?php
         include("part/footer.html");
     ?>

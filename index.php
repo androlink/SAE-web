@@ -15,6 +15,7 @@
     ?>
     <div>
         <aside>
+            <p>blabla</p>
         </aside>
         <main>
             <div class="content"> <!-- Caroussel-->

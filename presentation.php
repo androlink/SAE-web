@@ -10,7 +10,7 @@
     <?php
         include("part/header.html");
     ?>
-    <section>
+    <div>
         <aside>
             <div id="leboss"></div>
         </aside>
@@ -56,7 +56,7 @@
                 </ul>
             </section>-->
         </main>
-    </section>
+    </div>
 
     <?php
         include("part/footer.html");
