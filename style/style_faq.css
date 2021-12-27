@@ -9,16 +9,16 @@ aside{
     left: 0px;
     height: 100vh;
     /*height: fit-content;*/
-    padding-top: 2em;
+    padding: 1em;
     background-color: var(--bg-aside);
 }
 
 
-aside>div:first-child li{
+aside>div:first-child>ul>li li{
     margin-left: 2em; /*nous permet de faire l'indentation du sommaire*/
 }
 aside>div:first-child h1{
-    margin-top: 0.5em;
+    margin: 0.5em;
 }
 
 /*--------------- FAQ --------------------*/
@@ -108,4 +108,22 @@ button{
 }
 button,select{
     margin-right: 2em;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1600px) {
+    aside>div:first-child h2+ul *{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    aside>div:first-child p{
+        display: none;
+    }
 }

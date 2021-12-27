@@ -27,13 +27,13 @@
                                 <a href ="#apres"><p>Poursuites d'études</p></a>
                             </li>
                             <li>
-                                <a href ="#promo"><p>Y a quoi dans une promo?</p></a>
+                                <a href ="#promo"><p>Promo, proquoi?</p></a>
                             </li>
                             <li>
                                 <a href ="#stage"><p>Stages</p></a>
                             </li>
                             <li>
-                                <a href ="#vacances"><p>Vacances et jours feriés ☺</p></a>
+                                <a href ="#vacances"><p>Vacances & Congés</p></a>
                             </li>
                         </ul>
                     </li>
