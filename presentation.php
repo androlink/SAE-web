@@ -31,13 +31,13 @@
                         <li>Administration, gestion et exploitation des données</li>
                     </ul>
                 </p>
-                <div></div>
+                <div></div> <!--Shéma parcours-->
                 <h3>Réalisation d’applications : conception, développement, validation</h3>
                 <p>Parcours  assez généraliste en informatique, contient plus de math que les autres parcours mais contient moins d'économie/gestion</p>
                 <p>Ce parcours se prête bien à la poursuite d'études :
                     <ul>
-                        <li>en école d'ingénieur</li>
-                        <li>en master spécialisé</li>
+                        <li>En école d'ingénieur</li>
+                        <li>En master spécialisé</li>
                     </ul>
                 </p>
                 <h3>Déploiement d’applications communicantes et sécurisées <br> ou Parcours administration système, réseau et sécurité</h3>
