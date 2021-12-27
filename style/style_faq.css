@@ -9,13 +9,16 @@ aside{
     left: 0px;
     height: 100vh;
     /*height: fit-content;*/
-    padding: 1%;
+    padding-top: 2em;
     background-color: var(--bg-aside);
 }
 
 
-.sommaire li>ul>li{
+aside>div:first-child li{
     margin-left: 2em; /*nous permet de faire l'indentation du sommaire*/
+}
+aside>div:first-child h1{
+    margin-top: 0.5em;
 }
 
 /*--------------- FAQ --------------------*/
@@ -64,11 +67,11 @@ background-color: #808080;
 details h3{
     margin-top: 2em;
 }
-details#q1>article>section{
+details#Prereki>article>section{
     display: grid;
     grid-template-columns: 5fr 3fr;
 }
-details#q1 ul{
+details#Prereki ul{
     display: flex;
     flex-direction: column;
     row-gap: 0.5em;

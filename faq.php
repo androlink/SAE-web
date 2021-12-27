@@ -12,37 +12,108 @@
     ?>
     <div>
         <aside> <!--marge-->
-            <div class=sommaire>
+            <div>
                 <ul>
-                    <li>
-                        <h1><a href="#TRAVAIL">Travail</a></h1>    <!--titre catégorie-->
+                    <li>    <!--travail-->
+                        <a href="#TRAVAIL"><h1>Travail</h1>    <!--titre catégorie--></a>    
                         <ul>
-
-                            <li>    <!--question-->
-                                <p>test</p>
+                            <li>
+                                <a href ="#Prereki"><p>Prérequis</p></a>
                             </li>
                             <li>
-                                <p>test</p>
+                                <a href ="#Qjob"><p>Quantités de travail</p></a>
+                            </li>
+                            <li>
+                                <a href ="#apres"><p>Poursuites d'études</p></a>
+                            </li>
+                            <li>
+                                <a href ="#promo"><p>Y a quoi dans une promo?</p></a>
+                            </li>
+                            <li>
+                                <a href ="#stage"><p>Stages</p></a>
+                            </li>
+                            <li>
+                                <a href ="#vacances"><p>Vacances et jours feriés ☺</p></a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <h1><a href="#VIE_ETU">Vie étudiante</a></h1>
+                    <li> <!--vie etu-->
+                        <a href="#VIE_ETU">
+                            <h1>Vie étudiante</h1>
+                            <ul>
+                                <li>
+                                    <p>lieu de restauration</p>
+                                </li>
+                                <li>
+                                    <p>activités sportives</p>
+                                </li>
+                                <li>
+                                    <p>activités culturelles</p>
+                                </li>
+                            </ul>
+                        </a>
                     </li>
                     <li>
-                        <h1><a href="#PARENT">questions parents</a></h1>
+                        <a href="#PARENT"><h1>questions parents</h1></a>
+                        <ul>
+                            <li>
+                                <a href ="#ECO">
+                                <h2>Économie</h2>
+                                <ul>
+                                    <li>
+                                        <p>Coût formation</p>
+                                    </li>
+                                    <li>
+                                        <p>Logement</p>
+                                    </li>
+                                    <li>
+                                        <p>Transports</p>
+                                    </li>
+                                </ul>
+                                </a>
+                            </li>
+                            <li>
+                                <a href ="#sante">
+                                <h2>Santé</h2>
+                                <ul>
+                                    <li>
+                                        <p>?</p>
+                                    </li>
+                                    <li>
+                                        <p>?</p>
+                                    </li>
+                                </ul>
+                                </a>
+                            </li>
+                            <li>
+                                <a href ="#geo">
+                                <h2>Géographie</h2>
+                                <ul>
+                                    <li>
+                                        <p>Commerce alimentaire</p>
+                                    </li>
+                                    <li>
+                                        <p>Transports déservant l'IUT</p>
+                                    </li>
+                                </ul>
+                                </a>
+                            </li>
+                        </ul>
+                        </a>
                     </li>
                     <li>
-                        <h1><a href="#AUTRE">Nous contacter</a></h1>
+                        <a href="#AUTRE">
+                        <h1>Nous contacter</h1>
+                        </a>
                     </li>
                 </ul>
             </div>
         </aside>
         <main>
             <div> <!-- FAQ -->
-                <section >  <!--partie questions générales-->
+                <section id="TRAVAIL">  <!--partie questions générales-->
                     <section>
-                        <details id='q1'>
+                        <details id='Prereki'>
                             <summary> Y a t'il des pré-requis pour avoir accès au BUT INFO et pour ne pas avoir trop de difficultés?</summary>
                             <article>
                                 <p>Il est possible de candidater à l'aide d'un baccalauréat générales, un baccalauréat technologique STI2D, avec n'importe quel type de baccalauréat professionnels ou bien avec un équivalent du bac. Chaque candidature est évaluée.</p>
@@ -85,7 +156,7 @@
                             </article>
                         </details>
                         <details>
-                            <summary id="TRAVAIL"> Quelles sont les quantités de travail en IUT INFORMATIQUE? </summary>
+                            <summary id="Qjob"> Quelles sont les quantités de travail en IUT INFORMATIQUE? </summary>
                             <section>
                                 <details>
                                     <summary>Dans les matières "informatiques"? </summary>
@@ -102,19 +173,19 @@
                             </section>
                         </details>
                         <details>
-                            <summary> Quelles sont les possibles poursuites d’études et insertion dans le monde du travail?</summary>
+                            <summary id="apres"> Quelles sont les possibles poursuites d’études et insertion dans le monde du travail?</summary>
                             <p>Après un BUT il est possible d'entrer directement dans le monde du travail. Vous pouvez aussi à la fin de votre seconde année aller en école d'ingénieur (sur dossier) ou partir en 3eme année de licence pour faire ensuite un master. A la fin de la troisième année il est aussi possible de réessayer d'entrer dans une école d'ingénieur, ou de partir directement sur un master sans passer par la licence. A savoir que si vous validez votre deuxième année, même si vous chercher à aller ailleur, vous aurez quand même une place qui vous sera réserver en troisième année pour éviter que vous vous retrouviez sans rien. Si vous souhaitez aller étudier à l'étranger au sein de l'union européenne sachez que vous obtenez 30 crédits européens par semestres</p>
                         </details>
                         <details>
-                            <summary> Quel est la composition typique d'une promo d'IUT INFO?</summary>
+                            <summary id="promo"> Quel est la composition typique d'une promo d'IUT INFO?</summary>
                             <p>Une promo est d'environs 130 élèves.<br> 52% de bac généraux | 47% de bac technologiques | 1% de bac professionnels <br> Il n'y a que 9% de filles mais leur nombre augmente depuis plusieurs années, alors mesdames n'hésitez pas.</p>
                         </details>
                         <details>
-                            <summary> Devons nous exercer des stages pendant BUT INFO?</summary>
+                            <summary id="stage"> Devons nous exercer des stages pendant BUT INFO?</summary>
                             <p></p>
                         </details>
                         <details>
-                            <summary> Quelles sont les périodes de vacances, jours fériés et ponts?</summary>
+                            <summary id="vacances"> Quelles sont les périodes de vacances, jours fériés et ponts?</summary>
                             <p>Vous aurez une semaine de vacances à la toussaint, deux semaines à noël, une semaine en février et deux semaine à pâques.</p>
                         </details>
                     </section>
@@ -144,9 +215,9 @@
                         </details>
                     </section>
                 </section>
-                <section>  <!--partie questions parents-->
+                <section id="PARENT">  <!--partie questions parents-->
                     <details>
-                        <summary id="PARENT">Économie</summary>
+                        <summary id="ECO">Économie</summary>
                         <section>
                             <details>
                                 <summary>Quels sont les coûts de la formation</summary>
@@ -163,11 +234,11 @@
                         </section>
                     </details>
                     <details>
-                        <summary>Quels sont les service de santé sur le site de la DOUA?</summary>
+                        <summary id="sante">Quels sont les service de santé sur le site de la DOUA?</summary>
                         <p><p>
                     </details>
                     <details>
-                        <summary>Situation géographique</summary>
+                        <summary id="geo">Situation géographique</summary>
                         <section>
                             <details>
                                 <summary>Quels sont les magasins à proximité du site de la DOUA?</summary>
