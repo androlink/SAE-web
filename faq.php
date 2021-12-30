@@ -205,11 +205,15 @@
                                 </details>
                                 <details>
                                     <summary>Quelles est l'accessibilité aux activités sportives autour de l'IUT?</summary>
-                                    <p></p>
+                                    <section>
+                                    <p> les horaires sont un peu contraignante il y a peu d'activité sportive d'accessible dû aux cours qui finisse tard</p>
+                                        </section>
                                 </details>
                                 <details>
                                     <summary>Quelles est l'accessibilité aux activités culturelles autour de l'IUT?</summary>
-                                    <p></p>
+                                    <section>
+                                        <p> on accés à deux bibliothèques qui possède pas mal d'ouvrage</p>
+                                    </section>
                                 </details>
                             </section>
                         </details>
@@ -221,15 +225,26 @@
                         <section>
                             <details>
                                 <summary>Quels sont les coûts de la formation</summary>
-                                <p><p>
+                                <section>
+                                    <p> il faut compter environ 172€ pour la formation (obligatoire)<p>
+                                    <p> 90€ pour l'abonnement du CROUS (obligatoire)</p>
+
+                                </section>
                             </details>
                             <details>
                                 <summary>Quels sont les coûts des logements autour du campus?</summary>
-                                <p><p>
+                                <section>
+                                    <p> Résidences publiques du Crous : 150€ à 250€ (chambre) </p>
+                                    <p> Résidence étudiante privée : 500€ à 950€ (studio meublé), 480€ (chambre en colocation)</p>
+                                    <p> Location entre particuliers : à partir de 500€ (studio meublé), min 500€ (chambre en colocation)</p>
+
+                                </section>
                             </details>
                             <details>
                                 <summary>Quels sont les prix des transports sur lyon?</summary>
-                                <p><p>
+                                <section>
+                                    <p> 10€ pour un abonnement aux services TCL(tram, metro et bus)</p>
+                                </section>
                             </details>
                         </section>
                     </details>
@@ -242,11 +257,14 @@
                         <section>
                             <details>
                                 <summary>Quels sont les magasins à proximité du site de la DOUA?</summary>
-                                <p><p>
+                                <section>
+                                    <p> on peut retrouver un carfour a environ 15min de l'IUT <p>
+                                    <p> il y a aussi un vival a 25min <p>
+                                </section>
                             </details>
                             <details>
                                 <summary>Quels transports desservent l'IUT?</summary>
-                                <p><p>
+                                <p> pour les transports on a le tram T1 qui part de l'IUT Feyssine et qui pars en direction de gratte-ciel en passant par l'arrêt "INSA Einstein"<p>
                             </details>
                         </section>
                     </details>
