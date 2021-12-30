@@ -1,13 +1,13 @@
-
 body{
     --bg_news:  #F59;
     --bg_mapContact: #DDD;
     --bg_mapContact_cases: grey;
+
+    background-color: var(--bg-main);
 }
 body>div{
     display: flex;
 }
-
 aside{
     position: sticky;
     top: 0px;
@@ -19,22 +19,20 @@ aside{
 main{
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 75vw;
-    --hauteur_zone: 37.5vw; /* 2 fois moins que la largeur*/
     min-height: 100vh;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    width: 75vw;
+    
+    margin: 2rem auto ;
     row-gap: 4rem;
+    
+    --hauteur_zone: 37.5vw; /* 2 fois moins que la largeur*/
 }
 aside:hover{
    width: 14vw;
 }
-
 img, .img{ 
     background-size: cover;  
 }
-
 /*----------- PARTIE CAROUSSEL -----------*/
 .content {
     overflow: hidden;
@@ -42,7 +40,6 @@ img, .img{
     width: 100%;
     margin: auto;
 }
-
 .gallery-item {
     float: left;
     width: 100%;
@@ -52,29 +49,23 @@ img, .img{
     position: relative;
     overflow: hidden;
 }
-
 .slider-container {
     overflow: hidden;
 }
-
 .slide-holder {
     width: 400%;
     position: relative;
-    animation: scroller 10s infinite;
+    animation: scroller 20s infinite; /*a la base 2s*/
     animation-direction: alternate;
-    animation-delay: 2s;
+    animation-delay: 5s;                   /* a la base 2s*/
     animation-timing-function: ease-in-out;
 }
-
 .slide-holder img {
     width: 25%;
     display: inline-block;
     max-width: 25%;
     margin-right: -4px;
 }
-
-/* need a step for each slide */
-
 @keyframes scroller {
     0% {
         transform: translateX(0);
@@ -101,19 +92,16 @@ img, .img{
         transform: translateX(-75%);
     }
 }
-
 /*----------- PARTIE ACTUS -----------*/
-
 main>span{
     background-color: var(--bg_news);
     padding: 1em;
-    
 }
 main>span>ul{
     display: flex;
-    gap: 2rem;
     min-height: var(--hauteur_zone);
     width: 100%;
+    gap: 2rem;
 }
 main>span>ul>li{
     position: relative;
@@ -121,19 +109,20 @@ main>span>ul>li{
     border: solid black;
 }
 main>span .img-top{
+    position: relative;
     height: 250px;
     width: 100%;
-    position: relative;
 }
 main>span .img-top::before{
     position: absolute;
-    text-align: center;
-    font-size: clamp(8px, 1.5vw, 18px);
     bottom: 10px;
     left: 10px;
-    border-radius: 10px;
-    padding:5px 1rem;
 
+    padding:5px 1rem;
+    border-radius: 10px;
+
+    text-align: center;
+    font-size: clamp(8px, 1.5vw, 18px);                     /*se renseigner sur clamp*/
 }
 main>span .event .img-top::before{
     content: "Évenement/Annonce";
@@ -153,32 +142,28 @@ main>span span>article{
     display: flex;
     flex-direction: column;
     height: 60%;
-    width: calc(100%-2em);                  /* c'est dégeulasse*/
+    width: calc(100%-2em);                          /* c'est dégeulasse*/
+    margin: 1em 1em 5em;
     row-gap: 0.25em;
-    margin: 1em;
-    margin-bottom: 5em;
 }
 main>span span>span{
     position: absolute;
     bottom: 10px;
     right: 10px;
+
     font-size: 5em;
     font-weight: 700;
 }
-
+/*--------------Zone des images des articles---------------*/
 #article1>a>span>div{
     background-image: url(../Images/Articles/megaphone.gif);
 }
-
-
 #article2>a>span>div{
     background-image: url(../Images/Articles/v_20211112-affiche-metier-version-finale-carre_1636536798853.jpg);
 }
-
 #article3>a>span>div{
     background-image: url(../Images/Articles/v_affiche-ce-2022_1636358611844.png);
 }
-
 #article4>a>span>div{
     background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
 }
@@ -186,15 +171,15 @@ main>span span>span{
 /*----------- PARTIE CONTACT/CARTE -----------*/
 main>section{
     display: grid;
+    grid-template-columns: 3fr 10fr 3fr;
+    grid-template-rows: 2fr 10fr 2fr;
+    gap: 2em;
+
     height: var(--hauteur_zone);
     width: 96%;
     padding: 2%;
     background-color: var(--bg_mapContact);
-    grid-template-columns: 3fr 10fr 3fr;
-    grid-template-rows: 2fr 10fr 2fr;
-    gap: 2em;
 }
-
 main>section>div{
     background-color: var(--bg_mapContact_cases);
 }
@@ -202,37 +187,35 @@ main>section>div:first-child{
     grid-column: 1/2;
     grid-row: 1/4;
 }
-
 .logo{
     grid-column: 3/4;
     grid-row:1/4;
+
     display: flex;
     flex-direction: column;
+
     align-items: center;
     row-gap: 1em;
-
 }
 .logo>img{
-    max-height: 14%;
     height: auto;
+    max-height: 14%;
     max-width: 80%;
 }
-
 main>section>div>iframe{
     height: 100%;
     width: 100%;
 }
 
 
-
-
+/*------------------------------MEDIA QUERY----------------------------------------------*/
 @media screen and (max-width:1300px) {
     main>span>ul{
         flex-direction: column;
     }
     main>span>ul>li{
-        margin:auto;
         width: 75%;
+        margin:auto;
     }
     main>section>div:first-child>h1{
         font-size: 1.2em;

@@ -1,15 +1,18 @@
 body>div{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    background-color: #f0f0f0;
+    background-color: var(--bg-main);
 }
 
+
+/*-----------------Marge--------------------*/
 aside{
     position: sticky;
     top: 0px;
     left: 0px;
+
     height: 100vh;
-    padding: 100px 1%;
+    /*padding: 100px 1%;*/
     background-color: var(--bg-aside);
 }
 
@@ -17,28 +20,31 @@ aside{
     justify-content: center;
     align-items: center;
     
-    width: 9vw;
     height: 9vw;
-    margin: auto;
+    width: 9vw;
+    margin: 100px auto;
     border-radius: 100%;     /*permet de rogner les coins de la photo mise en background*/
     
     border: solid black 1px;
     background-image: url('../Images/Presentation/directeur_iut.jfif'); /*J'ai fait un background image pour si je veux plus tard mettre qqch par dessus*/
     background-size: cover; /*fait en sorte que le background fait la taille du div et ne dépasse pas, l'image ce compresse donc pour ne pas dépasser*/
+    position: sticky;
+    top: 0px;
+    left: 0px;
 }
 
-
-
+/*-----------------Main---------------*/
 main{
     width: 80%;
     margin: 5rem auto;
 }
-main>article>div{
-    background-image: url('../Images/Presentation/parcours.png');
+main>article>section>div{
     height: 310px;
     width: 550px;
-    background-size: cover;
     margin: 3em 1em;
+
+    background-image: url('../Images/Presentation/parcours.png');
+    background-size: cover;
 }
 
 article li{
@@ -50,7 +56,11 @@ article>h2,article>h3,article>h4{
     color:red;
     margin:1.5em 0 0.25em 0;
 }
+.bgmain2{
+    margin-top: 2em;
+}
 
+/*------------------------------MEDIA QUERY----------------------------------------------*/
 @media screen and (max-width:1000px) {  /*remove aside*/
     aside *{
         display: none;

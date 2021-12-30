@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     list-style: none;
-    outline: none;
+    outline: none;          /*a partir de là c'est pour cacher les liens, pas de soulignage ni de truc bleu/violet...*/
     text-decoration: none;
     color: #000;
 }
@@ -11,9 +11,13 @@ html{
     --bg-header: #e77c9c;
     --bg-footer: #314f4f;
 
-    --bg-main: #FFF;
+    --bg-main: #FEE;
+    --bg-main2: #E7E7FF;
     --bg-aside: #f8d595;
     --bg-button: #ccc;
+}
+.bgmain2{
+    background-color: var(--bg-main2);
 }
 
 header{
@@ -23,8 +27,8 @@ header{
 
 header>div{
     display: flex;
-    height: 13vh;
     justify-content: center;
+    height: 13vh;
 }
 
 header>nav{
@@ -51,19 +55,15 @@ header nav a{
 
 footer{
     position: sticky;   
+    display: flex;
     height: 30px;
     background-color: var(--bg-footer);
-    
-    display: flex;
-    
 }
 
 footer p, footer a{
+    display: inline-block;
     justify-self: stretch;
+    flex: 1 1 auto;
     text-align: center;
     color: snow;
-    display: inline-block;
-    flex: 1 1 auto;
-
-
 }
