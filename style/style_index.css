@@ -36,14 +36,14 @@ img, .img{
 /*----------- PARTIE CAROUSSEL -----------*/
 .content {
     overflow: hidden;
-    height: var(--hauteur_zone);
     width: 100%;
+    height: var(--hauteur_zone);
     margin: auto;
 }
 .gallery-item {
     float: left;
-    width: 100%;
     height: 100%;
+    width: 100%;
     padding-bottom: 30%;
     /* display: inline-block; */
     position: relative;
@@ -93,27 +93,27 @@ img, .img{
     }
 }
 /*----------- PARTIE ACTUS -----------*/
-main>span{
+main>section{
     background-color: var(--bg_news);
     padding: 1em;
 }
-main>span>ul{
+main>section>ul{
     display: flex;
     min-height: var(--hauteur_zone);
     width: 100%;
     gap: 2rem;
 }
-main>span>ul>li{
+main>section>ul>li{
     position: relative;
     width: 20em;
     border: solid black;
 }
-main>span .img-top{
+main>section .img-top{
     position: relative;
     height: 250px;
     width: 100%;
 }
-main>span .img-top::before{
+main>section .img-top::before{
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -124,21 +124,21 @@ main>span .img-top::before{
     text-align: center;
     font-size: clamp(8px, 1.5vw, 18px);                     /*se renseigner sur clamp*/
 }
-main>span .event .img-top::before{
+main>section .event .img-top::before{
     content: "Évenement/Annonce";
     background-color: rgba(85, 107, 246, 0.9);
 }
 
-main>span .formation .img-top::before{
+main>section .formation .img-top::before{
     content:"Formation";
     background-color: rgba(178, 55, 65, 0.9);
 }
 
-main>span span{
+main>section div{
     display: flex;
     flex-direction: column;
 }
-main>span span>article{
+main>section div>article{
     display: flex;
     flex-direction: column;
     height: 60%;
@@ -146,7 +146,7 @@ main>span span>article{
     margin: 1em 1em 5em;
     row-gap: 0.25em;
 }
-main>span span>span{
+main>section div>span{
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -155,21 +155,21 @@ main>span span>span{
     font-weight: 700;
 }
 /*--------------Zone des images des articles---------------*/
-#article1>a>span>div{
+#article1>a>div>div{
     background-image: url(../Images/Articles/megaphone.gif);
 }
-#article2>a>span>div{
+#article2>a>div>div{
     background-image: url(../Images/Articles/v_20211112-affiche-metier-version-finale-carre_1636536798853.jpg);
 }
-#article3>a>span>div{
+#article3>a>div>div{
     background-image: url(../Images/Articles/v_affiche-ce-2022_1636358611844.png);
 }
-#article4>a>span>div{
+#article4>a>div>div{
     background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
 }
 
 /*----------- PARTIE CONTACT/CARTE -----------*/
-main>section{
+main>section:last-child{
     display: grid;
     grid-template-columns: 3fr 10fr 3fr;
     grid-template-rows: 2fr 10fr 2fr;
@@ -180,10 +180,10 @@ main>section{
     padding: 2%;
     background-color: var(--bg_mapContact);
 }
-main>section>div{
+main>section:last-child>div{
     background-color: var(--bg_mapContact_cases);
 }
-main>section>div:first-child{
+main>section:last-child>div:first-child{
     grid-column: 1/2;
     grid-row: 1/4;
 }
@@ -202,7 +202,7 @@ main>section>div:first-child{
     max-height: 14%;
     max-width: 80%;
 }
-main>section>div>iframe{
+main>section:last-child>div>iframe{
     height: 100%;
     width: 100%;
 }
@@ -210,14 +210,14 @@ main>section>div>iframe{
 
 /*------------------------------MEDIA QUERY----------------------------------------------*/
 @media screen and (max-width:1300px) {
-    main>span>ul{
+    main>section>ul{
         flex-direction: column;
     }
-    main>span>ul>li{
+    main>section>ul>li{
         width: 75%;
         margin:auto;
     }
-    main>section>div:first-child>h1{
+    main>section:last-child>div:first-child>h1{
         font-size: 1.2em;
         font-weight: 700;
     }
@@ -226,7 +226,7 @@ main>section>div>iframe{
     }
 }
 @media screen and (max-width:575px) {
-    main>section{
+    main>section:last-child{
         display: none;
     }
 }

@@ -282,7 +282,7 @@
                     <option value="1ere-">avant-premiere</option>
                 </select>
                 <textarea placeholder="entrez votre question"></textarea>
-                <button aria_label="envoyer">envoyer</button>
+                <button aria-label="envoyer">envoyer</button>
             </form>
         </main>
     </div>
