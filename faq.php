@@ -113,7 +113,7 @@
             <div> <!-- FAQ -->
                 <section id="TRAVAIL">  <!--partie questions générales-->
                     <section>
-                        <details id='Prereki'>
+                        <details id="Prereki">
                             <summary> Y a-t-il des prérequis pour avoir accès au BUT INFO et pour ne pas avoir trop de difficultés?</summary>
                             <article>
                                 <p>Il est possible de candidater à l'aide d'un baccalauréat général, un baccalauréat technologique STI2D, avec n'importe quel type de baccalauréat professionnel ou bien avec un équivalent du bac. Chaque candidature est évaluée.</p>
@@ -228,7 +228,6 @@
                                 <section>
                                     <p> il faut compter environ 172€ pour la formation (obligatoire)<p>
                                     <p> 90€ pour l'abonnement du CROUS (obligatoire)</p>
-
                                 </section>
                             </details>
                             <details>
@@ -237,7 +236,6 @@
                                     <p> Résidences publiques du Crous : 150€ à 250€ (chambre) </p>
                                     <p> Résidence étudiante privée : 500€ à 950€ (studio meublé), 480€ (chambre en colocation)</p>
                                     <p> Location entre particuliers : à partir de 500€ (studio meublé), min 500€ (chambre en colocation)</p>
-
                                 </section>
                             </details>
                             <details>
@@ -284,7 +282,7 @@
                     <option value="1ere-">avant-premiere</option>
                 </select>
                 <textarea placeholder="entrez votre question"></textarea>
-                <button>envoyer</button>
+                <button aria_label="envoyer">envoyer</button>
             </form>
         </main>
     </div>
