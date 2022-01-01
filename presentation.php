@@ -33,12 +33,11 @@
                     <div></div> <!--Shéma parcours-->
                     <h3>Réalisation d’applications : conception, développement, validation</h3>
                     <p>Parcours  assez généraliste en informatique, contient plus de math que les autres parcours mais contient moins d'économie/gestion</p>
-                    <p>Ce parcours se prête bien à la poursuite d'études :
-                        <ul>
-                            <li>En école d'ingénieur</li>
-                            <li>En master spécialisé</li>
-                        </ul>
-                    </p>
+                    <p>Ce parcours se prête bien à la poursuite d'études :</p>
+                    <ul>
+                        <li>En école d'ingénieur</li>
+                        <li>En master spécialisé</li>
+                    </ul>
                     <h3>Déploiement d’applications communicantes et sécurisées <br> ou Parcours administration système, réseau et sécurité</h3>
                     <p>Ce parcours est le seul à avoir la deuxième année en alternance. Il contient également moins de maths et de développement que les autres parcours.</p>
                     <h3>Administration, gestion et exploitation des données</h3>
