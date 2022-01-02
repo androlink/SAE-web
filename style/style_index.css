@@ -75,9 +75,9 @@ img, .img{
 .slide-holder {
     width: 400%;
     position: relative;
-    animation: scroller 2s infinite;
+    animation: scroller 20s infinite;
     animation-direction: alternate;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-timing-function: ease-in-out;
 }
 .slide-holder img {
