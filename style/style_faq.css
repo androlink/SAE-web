@@ -3,6 +3,9 @@ body>div{
     grid-template-columns: 1fr 5fr;
 }
 
+
+/*---------------------------Marge---------------------------*/
+
 aside{
     position: sticky;
     top: 0px;
@@ -21,7 +24,9 @@ aside>div:first-child h1{
     margin: 0.5em;
 }
 
-/*--------------- FAQ --------------------*/
+
+/*---------------------------MAIN---------------------------*/
+
 main{
     position: relative;
     background-color: var(--bg-main);
@@ -32,6 +37,8 @@ main{
 main>div{
     margin-bottom: 200px;
 }
+
+/*-----------FAQ-----------*/
 
 details *{
     font-size: 1em;
@@ -107,7 +114,8 @@ details#Prereki ul{
     margin: 1em;
 }
 
-/*-----------FORMULAIRE--------------------------*/
+/*-----------FORMULAIRE-----------*/
+
 form{
     position: absolute;
     bottom: 10px;
@@ -117,9 +125,6 @@ form{
     grid-template-rows: 2em 6em 2em ;
     row-gap: 0.5em;
     column-gap: 5em;
-
-
-    /*margin-left: 50%;*/
 }
 
 label,#mail,form>section{
@@ -145,7 +150,8 @@ button,select{
 }
 
 
-/*------------------------------MEDIA QUERY----------------------------------------------*/
+
+/*------------------------------------------------------MEDIA QUERY------------------------------------------------------*/
 @media screen and (max-width:1600px) {
     aside>div:first-child h2+ul *{
         display: none;
@@ -181,9 +187,7 @@ button,select{
     }
 }
 
-/*probleme de responsiv avec le forms mais le pb n'est pas visible avec le f12*/
-
-@media screen and (max-width:700px) { /*ça marche pas*/
+@media screen and (max-width:700px) {
     form{
         right: 10px;
     }

@@ -6,32 +6,32 @@
     text-decoration: none;
     color: #000;
 }
-
 html{
     --bg-header: #e77c9c;
     --bg-footer: #314f4f;
+    --bg-nav: #ff4500;
 
     --bg-main: #FEE;
     --bg-main2: #E7E7FF;
     --bg-aside: #f8d595;
     --bg-button: #ccc;
-    --bg-nav: #ff4500;
 }
+
 .bgmain2{
     background-color: var(--bg-main2);
 }
 
+
+/*---------------------------header---------------------------*/
 header{
     background-color: var(--bg-header);
     height:var(--height);
 }
-
 header>div{
     display: flex;
     justify-content: center;
     height: 13vh;
 }
-
 header>nav{
     display: flex;
     justify-content: space-between;
@@ -49,19 +49,13 @@ header nav a{
 }
 
 
-
-
-
-
-/*_____________________________________________________________________________________________*/
-
+/*---------------------------Footer---------------------------*/
 footer{
     position: sticky;   
     display: flex;
     height: 30px;
     background-color: var(--bg-footer);
 }
-
 footer p, footer a{
     display: inline-block;
     justify-self: stretch;

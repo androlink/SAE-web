@@ -8,6 +8,9 @@ body{
 body>div{
     display: flex;
 }
+
+
+/*---------------------------Marge---------------------------*/
 aside{
     position: sticky;
     top: 0px;
@@ -19,6 +22,20 @@ aside{
 aside *{
     display: none
 }
+aside:hover{
+    width: 14vw;
+    padding: 1em 2em;
+}
+aside:hover *{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    font-weight: 800;
+}
+
+
+/*---------------------------MAIN---------------------------*/
+
 main{
     display: flex;
     flex-direction: column;
@@ -30,21 +47,13 @@ main{
     
     --hauteur_zone: 37.5vw; /* 2 fois moins que la largeur*/
 }
-aside:hover{
-   width: 14vw;
-   padding: 1em 2em;
-}
-aside:hover *{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0.5em;
-    font-weight: 800;
-}
 
 img, .img{ 
     background-size: cover;  
 }
-/*----------- PARTIE CAROUSSEL -----------*/
+
+/*-----------PARTIE CAROUSSEL-----------*/
+
 .content {
     overflow: hidden;
     width: 100%;
@@ -66,9 +75,9 @@ img, .img{
 .slide-holder {
     width: 400%;
     position: relative;
-    animation: scroller 20s infinite; /*a la base 2s*/
+    animation: scroller 2s infinite;
     animation-direction: alternate;
-    animation-delay: 5s;                   /* a la base 2s*/
+    animation-delay: 2s;
     animation-timing-function: ease-in-out;
 }
 .slide-holder img {
@@ -103,7 +112,9 @@ img, .img{
         transform: translateX(-75%);
     }
 }
-/*----------- PARTIE ACTUS -----------*/
+
+/*-----------PARTIE ACTUS-----------*/
+
 main>section{
     background-color: var(--bg_news);
     padding: 1em;
@@ -165,7 +176,7 @@ main>section div>span{
     font-size: 5em;
     font-weight: 700;
 }
-/*--------------Zone des images des articles---------------*/
+/*---Zone des images des articles---*/
 #article1>a>div>div{
     background-image: url(../Images/Articles/megaphone.gif);
 }
@@ -179,7 +190,8 @@ main>section div>span{
     background-image: url(../Images/Articles/v_etoitufaisquoiapreslebac_1510822562896.png);
 }
 
-/*----------- PARTIE CONTACT/CARTE -----------*/
+/*-----------PARTIE CONTACT/CARTE-----------*/
+
 main>section:last-child{
     display: grid;
     grid-template-columns: 3fr 10fr 3fr;
@@ -223,7 +235,8 @@ main>section:last-child>div>iframe{
 }
 
 
-/*------------------------------MEDIA QUERY----------------------------------------------*/
+
+/*------------------------------------------------------MEDIA QUERY------------------------------------------------------*/
 @media screen and (max-width:1300px) {
     main>section>ul{
         flex-direction: column;
