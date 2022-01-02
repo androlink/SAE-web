@@ -159,10 +159,22 @@ button,select{
     details *{
         font-size: 0.8em;
     }
+    form{
+        column-gap: 0.6em;
+    }
+    button,select{
+        margin-right: 0.4em;
+    }
 }
 @media screen and (max-width:510px) { /*ça marche mais avec le f12 ça marche pas*/
     details *{
         font-size: 0.5em;
+    }
+    form{
+        column-gap: 0.01em;
+    }
+    button,select{
+        margin-right: 0.01em;
     }
 }
 
