@@ -27,10 +27,10 @@
             <div class="content"> <!-- Caroussel-->
                 <div class="gallery-item slider-container">
                     <div class="slide-holder">
-                        <img src="Images/Carroussel/Amphi.jpg" alt="" />
-                        <img src="Images/Carroussel/Schema_BUT_2021.png" alt="" />
-                        <img src="Images/Carroussel/Schema_BUT_2021.png" alt="" />
-                        <img src="Images/Carroussel/Amphi.jpg" alt="" />
+                        <img src="Images/Carroussel/Schema_BUT_2021V2.png" alt="">
+                        <img src="Images/Carroussel/coursAuxCaillouxV2.jpg" alt="">
+                        <img src="Images/Carroussel/AmphiV2.jpg" alt="">
+                        <img src="Images/Carroussel/Schema_BUT_2021V2.png" alt="">
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                 <div> <!-- map -->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d734.7577928071403!2d4.882795097036954!3d45.78614521419196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3029697856ecb11c!2zNDXCsDQ3JzEwLjciTiA0wrA1MycwMS41IkU!5e0!3m2!1sfr!2sfr!4v1637406281762!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="localisation google map"></iframe>
                 </div>
-                <div class="logo" title="en partenariat avec"> <!-- Logos -->
+                <div title="en partenariat avec"> <!-- Logos -->
                     <img src="Images/LOGOS/Region_ARA.png" alt="la région auverge rhone alpe" />
                     <img src="Images/LOGOS/Rhône_Dpt_.png" alt="le département du rhône" />
                     <img src="Images/LOGOS/Dpt_ain-2018.png" alt="le département de l'Ain" />
