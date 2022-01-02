@@ -76,17 +76,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href ="#sante">
-                                <h2>Santé</h2>
-                                <ul>
-                                    <li>
-                                        <p>?</p>
-                                    </li>
-                                    <li>
-                                        <p>?</p>
-                                    </li>
-                                </ul>
-                                </a>
+                                <a href ="#sante"><h2>Santé</h2></a>
                             </li>
                             <li>
                                 <a href ="#geo">

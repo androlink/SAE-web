@@ -14,7 +14,10 @@ aside{
     left: 0px;
     height:100vh;
     width: 30px;
-    background-color: var(--bg-aside)
+    background-color: var(--bg-aside);
+}
+aside *{
+    display: none
 }
 main{
     display: flex;
@@ -29,7 +32,15 @@ main{
 }
 aside:hover{
    width: 14vw;
+   padding: 1em 2em;
 }
+aside:hover *{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    font-weight: 800;
+}
+
 img, .img{ 
     background-size: cover;  
 }
@@ -183,11 +194,15 @@ main>section:last-child{
 main>section:last-child>div{
     background-color: var(--bg_mapContact_cases);
 }
-main>section:last-child>div:first-child{
+main>section:last-child>div:first-child{ /*Contact*/
     grid-column: 1/2;
     grid-row: 1/4;
 }
-.logo{
+main>section:last-child>div:nth-child(2){ /**Titre*/
+    align-items: center;
+    justify-content: center;
+}
+main>section:last-child>div:last-child{ /* logos*/
     grid-column: 3/4;
     grid-row:1/4;
 
@@ -197,7 +212,7 @@ main>section:last-child>div:first-child{
     align-items: center;
     row-gap: 1em;
 }
-.logo>img{
+main>section:last-child>div:last-child>img{
     height: auto;
     max-height: 14%;
     max-width: 80%;

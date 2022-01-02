@@ -15,7 +15,13 @@
     ?>
     <div>
         <aside>
-            <p>blabla</p>
+            <ul>
+                <li><a href="https://www.universite-lyon.fr/">Université de Lyon</a></li>
+                <li><a href="https://iut.univ-lyon1.fr/">IUT Lyon 1</a></li>
+                <li><a href="https://iut.univ-lyon1.fr/actualites">actualité de l'IUT</a></li>
+                <li><a href="https://intranet.univ-lyon1.fr">intranet</a></li>
+                <li><a href="http://edt.univ-lyon1.fr">emploi du temps</a></li>
+            </ul>
         </aside>
         <main>
             <div class="content"> <!-- Caroussel-->
@@ -99,11 +105,10 @@
                     </p>
                 </div>
                 <div> <!--dessus map-->
+                    <h1>Carte</h1>
                 </div>
                 <div> <!-- map -->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d734.7577928071403!2d4.882795097036954!3d45.78614521419196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3029697856ecb11c!2zNDXCsDQ3JzEwLjciTiA0wrA1MycwMS41IkU!5e0!3m2!1sfr!2sfr!4v1637406281762!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="localisation google map"></iframe>
-                </div>
-                <div> <!-- Dessous map-->
                 </div>
                 <div class="logo" title="en partenariat avec"> <!-- Logos -->
                     <img src="Images/LOGOS/Region_ARA.png" alt="la région auverge rhone alpe" />
