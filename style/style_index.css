@@ -32,7 +32,14 @@ aside:hover *{
     margin-top: 0.5em;
     font-weight: 800;
 }
-
+aside ul li a{
+    background-color: var(--bg-aside-links);
+    padding: 5px;
+    text-align: center;
+}
+aside ul li a:hover{
+    background-color: var(--bg-aside-links-hover);
+}
 
 /*---------------------------MAIN---------------------------*/
 

@@ -14,6 +14,8 @@ html{
     --bg-main: #FEE;
     --bg-main2: #E7E7FF;
     --bg-aside: #f8d595;
+    --bg-aside-links: rgba(220, 160, 64, 0.91);
+    --bg-aside-links-hover: rgba(173, 128, 49, 0.91);
     --bg-button: #ccc;
 }
 

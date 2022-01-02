@@ -51,7 +51,7 @@
                                     <p>activités culturelles</p>
                                 </li>
                             </ul>
-                        </a>
+
                     </li>
                     <li>
                         <a href="#PARENT"><h1>questions parents</h1></a>
