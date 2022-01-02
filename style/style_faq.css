@@ -106,7 +106,7 @@ details#Prereki ul{
 
 /*-----------FORMULAIRE--------------------------*/
 form{
-    position: absolute;
+    position: relative;
     bottom: 10px;
     right: 10px;
 
