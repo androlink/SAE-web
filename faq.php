@@ -153,7 +153,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <p>Même si ce tableau vous dit quels sont les spécialités les plus adaptés, nous vous conseillons fortement de faire les spécialités Mathématiques et Numériques et Sciences de l'Informatique, car en plus d'augmenter vos chances d'être sélectionné, vous retrouverez ces matières. Il est donc avantageux d'avoir déjà un bagage en arrivant.</p>
+                                <p>Même si ce tableau vous dit quelles sont les spécialités les plus adaptées, nous vous conseillons fortement de faire les spécialités Mathématiques et Numériques et Sciences de l'Informatique, car en plus d'augmenter vos chances d'être sélectionné, vous retrouverez ces matières. Il est donc avantageux d'avoir déjà un bagage en arrivant.</p>
                             </article>
                         </details>
                         <details>
@@ -171,7 +171,7 @@
                                     <summary> 
                                         <h3>Dans les matières hors "informatique"? </h3>
                                     </summary>
-                                    <p>Vous aurez environs 11h par semaines de cours ayant des liens lointains avec l'informatique (communication, économie, mathématiques, anglais...) </p>
+                                    <p>Vous aurez environs 11h par semaines de cours ayant des liens plus ou moins lointains avec l'informatique (communication, économie, mathématiques, anglais...) </p>
                                 </details>
                                 <details>
                                     <summary>
@@ -185,7 +185,7 @@
                             <summary id="apres"> 
                                 <h2> Quelles sont les possibles poursuites d’études et insertion dans le monde du travail?</h2>
                             </summary>
-                            <p>Après un BUT il est possible d'entrer directement dans le monde du travail. Vous pouvez aussi à la fin de votre seconde année aller en école d'ingénieur (sur dossier) ou partir en 3eme année de licence pour faire ensuite un master. À la fin de la troisième année, il est aussi possible de réessayer d'entrer dans une école d'ingénieur, ou de partir directement sur un master sans passer par la licence. À savoir que si vous validez votre deuxième année, même si vous chercher à aller ailleurs, vous aurez quand même une place qui vous sera réserver en troisième année pour éviter que vous vous retrouviez sans rien. Si vous souhaitez aller étudier à l'étranger au sein de l'union européenne sachez que vous obtenez 30 crédits européens par semestres</p>
+                            <p>Après un BUT il est possible d'entrer directement dans le monde du travail. Vous pouvez aussi à la fin de votre seconde année aller en école d'ingénieur (sur dossier) ou partir en 3eme année de licence pour faire ensuite un master. À la fin de la troisième année, il est aussi possible de réessayer d'entrer dans une école d'ingénieur, ou de partir directement sur un master sans passer par la licence. À savoir que si vous validez votre deuxième année, même si vous chercher à aller ailleurs, vous aurez quand même une place qui vous sera réservée en troisième année pour éviter que vous vous retrouviez sans rien. Si vous souhaitez aller étudier à l'étranger au sein de l'union européenne sachez que vous obtenez 30 crédits européens par semestres</p>
                         </details>
                         <details>
                             <summary id="promo"> 
@@ -217,7 +217,7 @@
                                     </summary>
                                     <div>
                                         <p> Le studio est une des cafeterias du crous, la plus proche(en face de l'IUT au niveau de l’arrêt de tramway IUT Feyssine). Les cafeterias du crous vous propose un menu étudiant composé d'un sandwich, d'un yaourt et d'un dessert pour le même prix que le menu du restaurant universitaire. Vous pouvez également prendre un plat chaud ou plein d'autres choses (ça ressemble à une supérette). Nous vous conseillons de manger ailleurs, car les prix sont élevés.</p>
-                                        <p> L’Archimède est aussi une cafèt du crous, en face de l’arrêt de tram INSA EINSTEIN, mais vous permet d'avoir, avec le menu étudiant, des sandwiches de meilleures qualités qu'au studio.</p>
+                                        <p> L’Archimède est aussi une cafet du crous, en face de l’arrêt de tram INSA EINSTEIN.</p>
                                         <p> Le restau U "Jussieux" est sur l'avenue Einstein, à deux min à pied de l’arrêt de tram du même nom. Au restaurant universitaire, vous avez un menu étudiant de six points pour 3,30€ et 1€ pour les boursiers. Une entrée est à un ou deux points, un plat chaud est à 4 points et les desserts sont entre 1 et 3 points. Si vous dépassez les 6 points, chaque point supplémentaires coûtent 55 centimes.</p>
                                         <p> Vous pouvez également amener vos repas et manger dans les locaux de l'iut ou manger dans les nombreux restaurants situés aux alentours.</p>
                                         <p>!!!Nous vous rappelons que vous disposerez de 2h pour manger sauf le vendredi d'1h30!!!</p>
@@ -225,16 +225,16 @@
                                 </details>
                                 <details>
                                     <summary>
-                                        <h3>Quelles est l'accessibilité aux activités sportives autour de l'IUT?</h3>
+                                        <h3>Quelle est l'accessibilité aux activités sportives autour de l'IUT?</h3>
                                     </summary>
-                                    <p> les horaires sont un peu contraignante il y a peu d'activité sportive d'accessible dû aux cours qui finisse tard</p>
+                                    <p> Les horaires sont un peu contraignants, peu d'activités sportive sont accessible dû aux cours qui finissent tard et la non priorité des étudiants en IUT par rapport aux autres étudiants de l'universitée Lyon1. De plus les lieux d'activités sportives sont au minimum à deux arrets de tramway.</p>
                                 </details>
                                 <details>
                                     <summary>
-                                        <h3>Quelles est l'accessibilité aux activités culturelles autour de l'IUT?</h3>
+                                        <h3>Quelle est l'accessibilité aux activités culturelles autour de l'IUT?</h3>
                                     </summary>
                                     <div>
-                                        <p> on a accés à deux bibliothèques qui possède pas mal d'ouvrage</p>
+                                        <p>Deux Bibliothèques Universitaires(BU) de l'université lyon 1 sont à votre disposition tout en étant proches, une sur le site de l'iut et une autre à l'arret de tramway Gaston Berger. Vous pouvez aussi aller à la BU de l'INSA à l'arret INSA Einstein. Pour finir avec les Bibliothèques, il existe un résaux de Bibliothèques de Municpale lyon</p>
                                         <p></p>
                                     </div>
                                 </details>
@@ -259,7 +259,7 @@
                                     <h3>Quels sont les coûts des logements autour du campus?</h3>
                                 </summary>
                                 <div>
-                                    <p> Résidences publiques du Crous : 150€ à 250€ (chambre) &nbsp;Résidences étudiantes privées : 500€ à 950€ (studio meublé), 480€ (chambre en colocation) &nbsp; Location entre particuliers : à partir de 500€ (studio meublé), min 500€ (chambre en colocation)</p>
+                                    <p> Résidences publiques du Crous : 150€ à 250€ (chambre) <br> Résidences étudiantes privées : 500€ à 950€ (studio meublé), 480€ (chambre en colocation) <br> Location entre particuliers : à partir de 500€ (studio meublé), min 500€ (chambre en colocation)</p>
                                 </div>
                             </details>
                             <details>
