@@ -235,7 +235,10 @@
                                     </summary>
                                     <div>
                                         <p>Deux Bibliothèques Universitaires(BU) de l'université lyon 1 sont à votre disposition tout en étant proches, une sur le site de l'iut et une autre à l'arret de tramway Gaston Berger. Vous pouvez aussi aller à la BU de l'INSA à l'arret INSA Einstein. Pour finir avec les Bibliothèques, il existe un résaux de Bibliothèques de Municpale lyon</p>
-                                        <p></p>
+                                        <p>Le Bureaux des Étudiants (BDE) ne s'occupe pas seulement d'organiser des soirées, un pole culture est aussi là dans le BUT d'organiser des sorties/activitées culturelles</p>
+                                        <p>Chaque années, vous retrouverez différents festival à Lyon et autour de Lyon, tel que Les nuits de fourvière ou encore Jazz à Viennes</p>
+                                        <p>Nous tenons à souligner que tout les lieux interessant culturellement à lyon sont très bien desservie par le resaux de transport en commun TCL</p>
+                                        <p>Nous vous rappelons par la même occasion que vous avez le pass culture qui correspond à 300€ que vous pouvez utiliser en 2ans.</p>
                                     </div>
                                 </details>
                             </section>
@@ -261,6 +264,10 @@
                                 <div>
                                     <p> Résidences publiques du Crous : 150€ à 250€ (chambre) <br> Résidences étudiantes privées : 500€ à 950€ (studio meublé), 480€ (chambre en colocation) <br> Location entre particuliers : à partir de 500€ (studio meublé), min 500€ (chambre en colocation)</p>
                                 </div>
+                                <summary>
+                                    <h3>Y a t'il des offres à connaitre</h3>
+                                </summary>
+                                <p>Il existe une carte, la carte Dino qui coûte 15€ par ans mais qui vous permet d'avoir de nombreuses réductions à Lyon.</p>
                             </details>
                             <details>
                                 <summary>
@@ -269,7 +276,7 @@
                                 <div>
                                     <p> Pour un non boursier, l'abonnement au réseaux de transports en communs tcl est de 250€ l'année, si l'abonnement est pris au mois, il est à 25€ par mois</p>
                                     <p> Il existe aussi un service de location de vélo: vélov, l'abonnement reviens à seulement 16€ l'année pour boursier et non boursiers.</p>
-                                    <p>plus d'infos sur le site tcl: <a href="tcl.fr"> tcl.fr </a></p>
+                                    <p> Plus d'infos sur le site tcl: <a href="tcl.fr"> tcl.fr </a></p>
                                 </div>
                             </details>
                         </section>
@@ -287,7 +294,7 @@
                                 <summary>
                                     <h3>Quels sont les magasins à proximité du site de la DOUA?</h3>
                                 </summary>
-                                <p> on peut retrouver un carfour a environ 15min de l'IUT et il y a aussi un vival a 25min </p>
+                                <p> On peut retrouver un carfour a environ 15min de l'IUT et il y a aussi un vival a 25min </p>
                             </details>
                             <details>
                                 <summary>
