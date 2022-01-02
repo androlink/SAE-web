@@ -15,6 +15,7 @@ html{
     --bg-main2: #E7E7FF;
     --bg-aside: #f8d595;
     --bg-button: #ccc;
+    --bg-nav: #ff4500;
 }
 .bgmain2{
     background-color: var(--bg-main2);
@@ -35,14 +36,15 @@ header>nav{
     display: flex;
     justify-content: space-between;
     height: 100%;
-    background-color: var(--bg-button);
-
+    background-color: var(--bg-nav);
+    padding: 5px;
 }
 header nav a{
     display: flex;
     justify-content: center;
     width: 33%;
-    border: solid orangered;
+    background-color: var(--bg-button);
+    
 
 }
 
