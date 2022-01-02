@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>acceuil</title>
+    <title>Accueil IUT Informatique Lyon1</title>
     <link rel="stylesheet" href="style/style_index.css">
     <link rel="stylesheet" href="style/style_import.css">
-
 </head>
 <body>
     <?php
@@ -16,11 +15,11 @@
     <div>
         <aside>
             <ul>
-                <li><a href="https://www.universite-lyon.fr/">Université de Lyon</a></li>
-                <li><a href="https://iut.univ-lyon1.fr/">IUT Lyon 1</a></li>
-                <li><a href="https://iut.univ-lyon1.fr/actualites">actualité de l'IUT</a></li>
-                <li><a href="https://intranet.univ-lyon1.fr">intranet</a></li>
-                <li><a href="http://edt.univ-lyon1.fr">emploi du temps</a></li>
+                <li><a href="https://www.universite-lyon.fr/" target="_blank">Université de Lyon</a></li>
+                <li><a href="https://iut.univ-lyon1.fr/" target="_blank">IUT Lyon 1</a></li>
+                <li><a href="https://iut.univ-lyon1.fr/actualites" target="_blank">Actualité de l'IUT</a></li>
+                <li><a href="https://intranet.univ-lyon1.fr" target="_blank">Intranet</a></li>
+                <li><a href="http://edt.univ-lyon1.fr" target="_blank">Emploi du temps</a></li>
             </ul>
         </aside>
         <main>
@@ -41,7 +40,7 @@
                 </div>
                 <ul>
                     <li id="article1" class="event">
-                        <a href="https://iut.univ-lyon1.fr/campus/bibliotheque/exposition-les-fruits-et-les-legumes-du-monde-entier#.YZjxddDMJQA" aria-label="exposition sur les fruit et légumes du monde entier">
+                        <a href="https://iut.univ-lyon1.fr/campus/bibliotheque/exposition-les-fruits-et-les-legumes-du-monde-entier#.YZjxddDMJQA" target="_blank" aria-label="exposition sur les fruit et légumes du monde entier">
                             <div>
                                 <div class="img img-top"> </div>
                                 <article>
@@ -54,7 +53,7 @@
                         </a>
                     </li>
                     <li id="article2" class="formation">
-                        <a href="https://iut.univ-lyon1.fr/formation/offre-de-formations/informatique-bourg-en-bresse/forum-des-metiers-de-linformatique-a-bourg-en-bresse#.YZjxhtDMJQA" aria-label="forum des métiers de l'informatique, à Bourg-en-Bresse" >
+                        <a href="https://iut.univ-lyon1.fr/formation/offre-de-formations/informatique-bourg-en-bresse/forum-des-metiers-de-linformatique-a-bourg-en-bresse#.YZjxhtDMJQA" target="_blank" aria-label="forum des métiers de l'informatique, à Bourg-en-Bresse" >
                             <div>
                                 <div class="img img-top" role="img" aria-label="affiche du forum des métiers de l'informatique, à bourg en bresse"></div>
                                 <article>
@@ -67,7 +66,7 @@
                         </a>
                     </li>
                     <li id="article3" class="event">
-                        <a href="https://iut.univ-lyon1.fr/campus/bibliotheque/concours-decriture-2021-2022-de-liut-lyon-1#.YZjxmdDMJQA" aria-label="concours d'écriture à l'IUT Lyon 1">
+                        <a href="https://iut.univ-lyon1.fr/campus/bibliotheque/concours-decriture-2021-2022-de-liut-lyon-1#.YZjxmdDMJQA" target="_blank" aria-label="concours d'écriture à l'IUT Lyon 1">
                             <div>
                                 <div class="img img-top" role="img" aria-label="affiche du coucours d'écriture"></div>
                                 <article>
@@ -81,7 +80,7 @@
                         </a>
                     </li>
                     <li id="article4" class="formation">
-                        <a href="https://iut.univ-lyon1.fr/actualites/et-toi-tu-fais-quoi-apres-le-bac#.YZjwFtDMJQA" aria-label="et toi, tu fais quoi après le bac?">
+                        <a href="https://iut.univ-lyon1.fr/actualites/et-toi-tu-fais-quoi-apres-le-bac#.YZjwFtDMJQA" target="_blank" aria-label="et toi, tu fais quoi après le bac?">
                             <div>
                                 <div class="img img-top"></div>
                                 <article>
@@ -101,7 +100,7 @@
                     <p>
                         <span>1 rue de la Technologie</span>
                         <span>69622 Villeurbanne Cedex</span>
-                        <span>Tél. <a href="tel:33472692000" aria-label="appeler directement l'IUT"> +33 (0)4 72 69 20 00</a></span>
+                        <span>Tél. <a href="tel:33472692000" target="_blank" aria-label="appeler directement l'IUT"> +33 (0)4 72 69 20 00</a></span>
                     </p>
                 </div>
                 <div> <!--dessus map-->

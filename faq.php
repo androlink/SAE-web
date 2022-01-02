@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>accueil</title>
+    <title>FAQ IUT Informatique Lyon1</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/style_faq.css">
     <link rel="stylesheet" href="style/style_import.css">
@@ -158,13 +158,13 @@
                                     <summary>
                                         <h3> Dans les matières "informatiques"? </h3>
                                     </summary>
-                                    <p>Au premier semestre vous aurez environs 18h par semaines de cours d'informatiques (Algorithmie, web, langages de programmation, Base de Donnée (modélisation et SQL), archi, OS) </p>
+                                    <p>Au premier semestre vous aurez environs 18h par semaines de cours d'informatiques (Algorithmie, web, langages de programmation, Base de Donnée (modélisation et SQL), archi, OS).</p>
                                 </details>
                                 <details>
                                     <summary> 
                                         <h3>Dans les matières hors "informatique"? </h3>
                                     </summary>
-                                    <p>Vous aurez environs 11h par semaines de cours ayant des liens plus ou moins lointains avec l'informatique (communication, économie, mathématiques, anglais...) </p>
+                                    <p>Vous aurez environs 11h par semaines de cours ayant des liens plus ou moins lointains avec l'informatique (communication, économie, mathématiques, anglais...).</p>
                                 </details>
                                 <details>
                                     <summary>
@@ -178,7 +178,7 @@
                             <summary id="apres"> 
                                 <h2> Quelles sont les possibles poursuites d’études et insertion dans le monde du travail?</h2>
                             </summary>
-                            <p>Après un BUT il est possible d'entrer directement dans le monde du travail. Vous pouvez aussi à la fin de votre seconde année aller en école d'ingénieur (sur dossier) ou partir en 3eme année de licence pour faire ensuite un master. À la fin de la troisième année, il est aussi possible de réessayer d'entrer dans une école d'ingénieur, ou de partir directement sur un master sans passer par la licence. À savoir que si vous validez votre deuxième année, même si vous chercher à aller ailleurs, vous aurez quand même une place qui vous sera réservée en troisième année pour éviter que vous vous retrouviez sans rien. Si vous souhaitez aller étudier à l'étranger au sein de l'union européenne sachez que vous obtenez 30 crédits européens par semestres</p>
+                            <p>Après un BUT il est possible d'entrer directement dans le monde du travail. Vous pouvez aussi à la fin de votre seconde année aller en école d'ingénieur (sur dossier) ou partir en 3eme année de licence pour faire ensuite un master. À la fin de la troisième année, il est aussi possible de réessayer d'entrer dans une école d'ingénieur, ou de partir directement sur un master sans passer par la licence. À savoir que si vous validez votre deuxième année, même si vous chercher à aller ailleurs, vous aurez quand même une place qui vous sera réservée en troisième année pour éviter que vous vous retrouviez sans rien. Si vous souhaitez aller étudier à l'étranger au sein de l'union européenne sachez que vous obtenez 30 crédits européens par semestres.</p>
                         </details>
                         <details>
                             <summary id="promo"> 
@@ -223,17 +223,17 @@
                                     <summary>
                                         <h3>Quelle est l'accessibilité aux activités sportives autour de l'IUT?</h3>
                                     </summary>
-                                    <p> Les horaires sont un peu contraignants, peu d'activités sportive sont accessible dû aux cours qui finissent tard et la non priorité des étudiants en IUT par rapport aux autres étudiants de l'universitée Lyon1. De plus les lieux d'activités sportives sont au minimum à deux arrets de tramway.</p>
+                                    <p> Les horaires sont un peu contraignants, peu d'activités sportive sont accessible dû aux cours qui finissent tard et la non priorité des étudiants en IUT par rapport aux autres étudiants de l'universitée Lyon 1. De plus les lieux d'activités sportives sont au minimum à deux arrets de tramway.</p>
                                 </details>
                                 <details>
                                     <summary>
                                         <h3>Quelle est l'accessibilité aux activités culturelles autour de l'IUT?</h3>
                                     </summary>
                                     <div>
-                                        <p>Deux Bibliothèques Universitaires(BU) de l'université lyon 1 sont à votre disposition tout en étant proches, une sur le site de l'iut et une autre à l'arret de tramway Gaston Berger. Vous pouvez aussi aller à la BU de l'INSA à l'arret INSA Einstein. Pour finir avec les Bibliothèques, il existe un résaux de Bibliothèques de Municpale lyon</p>
-                                        <p>Le Bureaux des Étudiants (BDE) ne s'occupe pas seulement d'organiser des soirées, un pole culture est aussi là dans le BUT d'organiser des sorties/activitées culturelles</p>
-                                        <p>Chaque années, vous retrouverez différents festival à Lyon et autour de Lyon, tel que Les nuits de fourvière ou encore Jazz à Viennes</p>
-                                        <p>Nous tenons à souligner que tout les lieux interessant culturellement à lyon sont très bien desservie par le resaux de transport en commun TCL</p>
+                                        <p>Deux Bibliothèques Universitaires(BU) de l'université Lyon 1 sont à votre disposition tout en étant proches, une sur le site de l'iut et une autre à l'arret de tramway Gaston Berger. Vous pouvez aussi aller à la BU de l'INSA à l'arret INSA Einstein. Pour finir avec les Bibliothèques, il existe un résaux de Bibliothèques de Municpale Lyon.</p>
+                                        <p>Le Bureaux des Étudiants (BDE) ne s'occupe pas seulement d'organiser des soirées, un pole culture est aussi là dans le BUT d'organiser des sorties/activitées culturelles.</p>
+                                        <p>Chaque années, vous retrouverez différents festival à Lyon et autour de Lyon, tel que Les nuits de fourvière ou encore Jazz à Viennes.</p>
+                                        <p>Nous tenons à souligner que tout les lieux interessant culturellement à Lyon sont très bien desservie par le resaux de transport en commun TCL.</p>
                                         <p>Nous vous rappelons par la même occasion que vous avez le pass culture qui correspond à 300€ que vous pouvez utiliser en 2ans.</p>
                                     </div>
                                 </details>
@@ -251,7 +251,7 @@
                                 <summary>
                                     <h3>Quels sont les coûts de la formation</h3>
                                 </summary>
-                                <p> il faut compter environ 172€ pour la formation (obligatoire) et 90€ pour l'abonnement du CROUS (obligatoire)</p>
+                                <p>Il faut compter environ 172€ pour la formation (obligatoire) et 90€ pour l'abonnement du CROUS (obligatoire).</p>
                             </details>
                             <details>
                                 <summary>
@@ -263,12 +263,12 @@
                             </details>
                             <details>
                                 <summary>
-                                    <h3>Quels sont les prix des transports sur lyon?</h3>
+                                    <h3>Quels sont les prix des transports sur Lyon?</h3>
                                 </summary>
                                 <div>
-                                    <p> Pour un non boursier, l'abonnement au réseaux de transports en communs tcl est de 250€ l'année, si l'abonnement est pris au mois, il est à 25€ par mois</p>
+                                    <p> Pour un non boursier, l'abonnement au réseaux de transports en communs tcl est de 250€ l'année, si l'abonnement est pris au mois, il est à 25€ par mois.</p>
                                     <p> Il existe aussi un service de location de vélo: vélov, l'abonnement reviens à seulement 16€ l'année pour boursier et non boursiers.</p>
-                                    <p> Plus d'infos sur le site tcl: <a href="tcl.fr"> tcl.fr </a></p>
+                                    <p> Plus d'infos sur le site tcl: <a href="tcl.fr" target="_blank"> tcl.fr </a></p>
                                 </div>
                             </details>
                             <details>
@@ -283,7 +283,7 @@
                         <summary id="sante"><h2>Quels sont les services de santé sur le site de la DOUA?</h2></summary>
                         <div>
                             <p>Il existe des services de santé au sein de l'universitée Lyon 1.</p>
-                            <p>Si vous avez un logement étudiant sur Lyon nous vous conseillons de changer de médecin traitant afin qu'il soit égallement sur Lyon</p>
+                            <p>Si vous avez un logement étudiant sur Lyon nous vous conseillons de changer de médecin traitant afin qu'il soit égallement sur Lyon.</p>
                         </div>
                     </details>
                     <details>
@@ -295,13 +295,13 @@
                                 <summary>
                                     <h3>Quels sont les magasins à proximité du site de la DOUA?</h3>
                                 </summary>
-                                <p> On peut retrouver un carfour a environ 15min de l'IUT et il y a aussi un vival a 25min </p>
+                                <p> On peut retrouver un carrefour a environ 15min à pied de l'IUT et il y a aussi un vival a 25min.</p>
                             </details>
                             <details>
                                 <summary>
                                     <h3>Quels transports desservent l'IUT?</h3>
                                 </summary>
-                                <p> pour les transports on a le tram T1 qui part de l'IUT Feyssine et qui pars en direction de gratte-ciel en passant par l'arrêt "INSA Einstein"</p>
+                                <p>Pour les transports on a le tram T1 qui part de l'IUT Feyssine et qui pars en direction de gratte-ciel en passant par l'arrêt "INSA Einstein".</p>
                             </details>
                         </section>
                     </details>
