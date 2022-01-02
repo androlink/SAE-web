@@ -190,7 +190,10 @@
                             <summary id="stage"> 
                                 <h2>Devons nous exercer des stages pendant BUT INFO?</h2>
                             </summary>
-                            <p></p>
+                            <div>
+                                <p>Un stage aura lieu durant le 4eme semestre soit durant la deuxième partie de la deuxième année. </p>
+                                <p>Vous aurez également la troisième année qui sera complètement en alternance.</p>
+                            </div>
                         </details>
                         <details>
                             <summary id="vacances"> 
@@ -304,10 +307,10 @@
                     </details>
                 </section>
             </div>
-            <form> <!-- Autre question / formulaire -->
+            <form action="action_page.php" method="post" name="question_pFAQ"> <!-- Autre question / formulaire -->
                 <div id="AUTRE">
                     <label for="mail">Mail :</label>
-                    <input id="mail">
+                    <input id="mail" type="text" name="email">
                 </div>
                 <select name="formation">
                     <option value="" disabled selected hidden>niveau de formation</option>
@@ -317,8 +320,8 @@
                     <option value="1ere">premiere</option>
                     <option value="1ere-">avant-premiere</option>
                 </select>
-                <textarea placeholder="entrez votre question"></textarea>
-                <button aria-label="envoyer">envoyer</button>
+                <textarea placeholder="entrez votre question" name="question" ></textarea>
+                <button name="envoi" type="submit" aria-label="envoyer">envoyer</button>
             </form>
         </main>
     </div>
