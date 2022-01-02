@@ -17,6 +17,7 @@ html{
     --bg-aside-links: rgba(220, 160, 64, 0.91);
     --bg-aside-links-hover: rgba(173, 128, 49, 0.91);
     --bg-button: #ccc;
+    --bg-button-hover: #818080;
 }
 
 .bgmain2{
@@ -49,8 +50,9 @@ header nav a{
     
 
 }
-
-
+header nav a:hover {
+    background-color: var(--bg-button-hover);
+}
 /*---------------------------Footer---------------------------*/
 footer{
     position: sticky;   
