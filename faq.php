@@ -69,6 +69,9 @@
                                     <li>
                                         <p>Transports</p>
                                     </li>
+                                    <li>
+                                        <p>Offres de réductions</p>
+                                    </li>
                                 </ul>
                                 </a>
                             </li>
@@ -264,10 +267,6 @@
                                 <div>
                                     <p> Résidences publiques du Crous : 150€ à 250€ (chambre) <br> Résidences étudiantes privées : 500€ à 950€ (studio meublé), 480€ (chambre en colocation) <br> Location entre particuliers : à partir de 500€ (studio meublé), min 500€ (chambre en colocation)</p>
                                 </div>
-                                <summary>
-                                    <h3>Y a t'il des offres à connaitre</h3>
-                                </summary>
-                                <p>Il existe une carte, la carte Dino qui coûte 15€ par ans mais qui vous permet d'avoir de nombreuses réductions à Lyon.</p>
                             </details>
                             <details>
                                 <summary>
@@ -279,11 +278,20 @@
                                     <p> Plus d'infos sur le site tcl: <a href="tcl.fr"> tcl.fr </a></p>
                                 </div>
                             </details>
+                            <details>
+                                <summary>
+                                    <h3>Y a t'il des offres à connaitre</h3>
+                                </summary>
+                                <p>Il existe une carte, la carte Dino qui coûte 15€ par ans mais qui vous permet d'avoir de nombreuses réductions à Lyon.</p>
+                            </details>
                         </section>
                     </details>
                     <details>
                         <summary id="sante"><h2>Quels sont les services de santé sur le site de la DOUA?</h2></summary>
-                        <p></p>
+                        <div>
+                            <p>Il existe des services de santé au sein de l'universitée Lyon 1.</p>
+                            <p>Si vous avez un logement étudiant sur Lyon nous vous conseillons de changer de médecin traitant afin qu'il soit égallement sur Lyon</p>
+                        </div>
                     </details>
                     <details>
                         <summary id="geo">
